@@ -1,0 +1,41 @@
+App Name: Eye Focus Timer
+Subtitle: 20-20-20 Rule & Eye Exercises
+
+Description:
+Eye Focus Timer is your personal digital eye strain prevention toolkit built around the clinically recommended 20-20-20 rule. Every 20 minutes of screen time, take a 20-second break and look at something 20 feet away. Simple science, powerful results.
+
+SMART 20-20-20 TIMER
+Start the timer and focus on your work with confidence. Eye Focus Timer runs quietly in the background, counting down your chosen interval — 20, 30, 45, or 60 minutes. When it's time for a break, you'll receive a gentle notification with optional haptic feedback and sound. A beautiful 20-second countdown guides your break, reminding you to look at a distant object and let your eye muscles relax. After each break, the timer automatically resets so you stay protected throughout your entire workday.
+
+SIX INTERACTIVE EYE EXERCISES
+Go beyond simple breaks with targeted exercises designed by optometric principles to strengthen your visual system:
+
+Follow the Dot — A glowing dot moves across your screen in smooth patterns. Track it with your eyes without moving your head. This classic exercise strengthens extraocular muscles and improves smooth pursuit tracking ability, which degrades during prolonged screen use.
+
+Near-Far Focus — Alternate your gaze between a near target (your thumb at 15cm) and a far target on screen. Each focus hold lasts 3 seconds with haptic cues. This exercise directly counteracts accommodative spasm — the leading cause of screen-related blurred vision.
+
+Palming Rest — Cover your eyes with warm palms while following a guided breathing animation. Complete darkness combined with deep breathing activates the parasympathetic nervous system, rapidly reducing eye muscle tension and mental fatigue.
+
+Figure 8 Trace — Follow a dot as it traces an infinity (∞) pattern. This exercise improves coordination between both eyes and enhances the flexibility of the six muscles controlling each eye's movement.
+
+Blink Break — Guided rapid-blink exercise with visual cues. Research shows we blink 66% less when using screens, leading to dry, irritated eyes. This exercise restores your natural blink rate and refreshes the protective tear film.
+
+Peripheral Peek — Stare at the center fixation point while dots flash at the edges of your screen. Tap when you spot one. This trains peripheral awareness, which narrows significantly during concentrated screen work, and helps detect visual field changes early.
+
+COMPREHENSIVE PROGRESS TRACKING
+Monitor your eye health with detailed statistics. See your daily Eye Health Score calculated from breaks taken, exercises completed, and streak consistency. Track weekly trends with visual bar charts showing your breaks and exercise counts over the past seven days. Build and maintain daily streaks to develop lasting healthy screen habits.
+
+CUSTOMIZABLE EXPERIENCE
+Choose your preferred break interval from 20 to 60 minutes. Toggle push notifications, sound effects, and haptic feedback independently. All preferences are saved automatically between sessions.
+
+THE SCIENCE BEHIND IT
+Computer Vision Syndrome affects approximately 90% of people who use screens for 3+ hours daily. Symptoms include dry eyes, headaches, neck pain, and blurred vision. The 20-20-20 rule is recommended by the American Academy of Ophthalmology, the American Optometric Association, and eye care professionals worldwide as the single most effective preventive measure. Combined with targeted exercises, it can reduce symptoms by up to 50% according to published studies.
+
+PRIVACY FIRST
+No account required. No data collection. No cloud sync. Everything stays on your device. Your health data belongs to you alone.
+
+Whether you're a developer, designer, writer, gamer, or anyone who spends significant time looking at screens, Eye Focus Timer gives you the tools to protect your most valuable sense — your vision.
+
+Keywords: eye care, 20-20-20 rule, eye exercises, screen time, eye strain, digital wellness, vision health, eye rest timer, blink reminder, eye workout
+
+Category: Health & Fitness

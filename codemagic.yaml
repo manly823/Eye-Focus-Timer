@@ -1,0 +1,36 @@
+workflows:
+  ios-release:
+    name: iOS Release
+    instance_type: mac_mini_m2
+    max_build_duration: 60
+    integrations:
+      app_store_connect: EDEN RUSSEL
+    environment:
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: eyefocustimer.app
+      vars:
+        XCODE_WORKSPACE: "EyeFocusTimer.xcodeproj"
+        XCODE_SCHEME: "EyeFocusTimer"
+      xcode: latest
+    scripts:
+      - name: Set build number
+        script: |
+          cd $CM_BUILD_DIR
+          agvtool new-version -all $(($PROJECT_BUILD_NUMBER + 1))
+      - name: Set up code signing
+        script: |
+          xcode-project use-profiles
+      - name: Build ipa for App Store
+        script: |
+          xcode-project build-ipa \
+            --project "$XCODE_WORKSPACE" \
+            --scheme "$XCODE_SCHEME"
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+    publishing:
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: true
+        expire_build_submitted_for_review: true
