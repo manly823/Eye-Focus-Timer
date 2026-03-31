@@ -1,36 +1,74 @@
 workflows:
   ios-release:
-    name: iOS Release
-    instance_type: mac_mini_m2
+    name: iOS Release - App Store
     max_build_duration: 60
+    instance_type: mac_mini_m2
+
     integrations:
-      app_store_connect: EDEN RUSSEL
+      app_store_connect: Jacob Mooers  # ← ЗАМЕНИ на имя твоей интеграции в Codemagic
+
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: eyefocustimer.app
+        bundle_identifier: jacobmooers.eyefocustimer  # ← ЗАМЕНИ на свой Bundle ID
       vars:
-        XCODE_WORKSPACE: "EyeFocusTimer.xcodeproj"
+        XCODE_PROJECT: "EyeFocusTimer.xcodeproj"
         XCODE_SCHEME: "EyeFocusTimer"
-      xcode: latest
+        APP_STORE_APP_ID: "6761429800"  # ← ЗАМЕНИ на Apple ID приложения
+      xcode: 16.1
+
     scripts:
+      - name: Install CocoaPods dependencies
+        script: |
+          if [ -f "Podfile" ]; then
+            pod install
+          fi
+        working_directory: $CM_BUILD_DIR
+
       - name: Set build number
         script: |
+          LATEST_BUILD_NUMBER=$(app-store-connect get-latest-testflight-build-number "$APP_STORE_APP_ID" || echo "0")
+          BUILD_NUMBER=$((LATEST_BUILD_NUMBER + 1))
           cd $CM_BUILD_DIR
-          agvtool new-version -all $(($PROJECT_BUILD_NUMBER + 1))
+          agvtool new-version -all $BUILD_NUMBER
+          echo "Build number set to: $BUILD_NUMBER"
+
       - name: Set up code signing
         script: |
           xcode-project use-profiles
+        working_directory: $CM_BUILD_DIR
+
       - name: Build ipa for App Store
         script: |
-          xcode-project build-ipa \
-            --project "$XCODE_WORKSPACE" \
-            --scheme "$XCODE_SCHEME"
+          xcodebuild -project "$XCODE_PROJECT" \
+            -scheme "$XCODE_SCHEME" \
+            -sdk iphoneos \
+            -configuration Release \
+            -archivePath build/App.xcarchive \
+            clean archive \
+            CODE_SIGN_STYLE=Manual
+
+          xcodebuild -exportArchive \
+            -archivePath build/App.xcarchive \
+            -exportOptionsPlist ~/export_options.plist \
+            -exportPath build/ios/ipa
+        working_directory: $CM_BUILD_DIR
+
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
+      - build/*.xcarchive
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
+
     publishing:
+      email:
+        recipients:
+          - amachedonschii@gmail.com
+        notify:
+          success: true
+          failure: true
+
       app_store_connect:
         auth: integration
         submit_to_testflight: true
-        expire_build_submitted_for_review: true
+        submit_to_app_store: false
