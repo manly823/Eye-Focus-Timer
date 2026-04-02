@@ -198,7 +198,7 @@ struct ExercisePlayerView: View {
             }
             Text(showBlink ? "BLINK!" : "Open").font(.system(size: 28, weight: .bold, design: .rounded)).foregroundColor(showBlink ? exercise.color : Theme.sub)
             Text("\(blinkCount) blinks").font(.system(size: 18, weight: .semibold, design: .rounded)).foregroundColor(exercise.color)
-            Text("Blink fully — close and open.\nThis refreshes your tear film.")
+            Text("Blink fully — close and open.\nEncourages a healthy blink rate.")
                 .font(.system(size: 12, design: .rounded)).foregroundColor(Theme.dim).multilineTextAlignment(.center)
             Spacer()
         }

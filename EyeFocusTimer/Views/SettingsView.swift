@@ -62,8 +62,21 @@ struct SettingsView: View {
                 section("ABOUT", "info.circle") {
                     infoRow("App", "Eye Focus Timer", Theme.cyan)
                     infoRow("Version", Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0", Theme.sub)
-                    Text("Eye Focus Timer helps reduce digital eye strain using the clinically recommended 20-20-20 rule combined with targeted eye exercises. Regular breaks can significantly reduce symptoms of Computer Vision Syndrome including dry eyes, headaches, and blurred vision. All data is stored locally for complete privacy.")
+                    Text("Eye Focus Timer helps reduce digital eye strain using the 20-20-20 rule combined with eye exercises based on optometric guidelines. All data is stored locally for complete privacy.")
                         .font(.system(size: 11, design: .rounded)).foregroundColor(Theme.dim).lineSpacing(3).padding(.top, 4)
+                }
+
+                section("MEDICAL DISCLAIMER", "exclamationmark.triangle") {
+                    Text("This app is for informational and wellness purposes only. It does not provide medical diagnoses, treatment, or advice. The Eye Health Score is a habit-tracking metric based on your break and exercise frequency — it is not a clinical measurement.\n\nAlways consult a qualified eye care professional (ophthalmologist or optometrist) before making any decisions about your eye health. If you experience persistent eye discomfort, vision changes, or other symptoms, seek professional medical advice promptly.\n\nThis app is not a substitute for professional medical care.")
+                        .font(.system(size: 11, design: .rounded)).foregroundColor(Theme.dim).lineSpacing(3)
+                }
+
+                section("SOURCES & REFERENCES", "book.closed") {
+                    sourceLink("20-20-20 Rule", "American Academy of Ophthalmology", "https://www.aao.org/eye-health/tips-prevention/computer-usage")
+                    sourceLink("Computer Vision Syndrome", "American Optometric Association", "https://www.aoa.org/healthy-eyes/eye-and-vision-conditions/computer-vision-syndrome")
+                    sourceLink("Blink Rate & Screens", "Tsubota K. et al., NEJM 1993", "https://pubmed.ncbi.nlm.nih.gov/8421478/")
+                    sourceLink("Digital Eye Strain Review", "Sheppard & Wolffsohn, BMJ Open Ophth. 2018", "https://bmjophth.bmj.com/content/3/1/e000146")
+                    sourceLink("Computer Vision Syndrome Review", "Rosenfield M., Ophthalmic Physiol Opt 2011", "https://pubmed.ncbi.nlm.nih.gov/21480937/")
                 }
             }.padding(.horizontal, 16).padding(.bottom, 40)
         }
@@ -82,6 +95,20 @@ struct SettingsView: View {
 
     private func infoRow(_ l: String, _ v: String, _ c: Color) -> some View {
         HStack { Text(l).font(.system(size: 13, design: .rounded)).foregroundColor(Theme.sub); Spacer(); Text(v).font(.system(size: 13, weight: .semibold, design: .rounded)).foregroundColor(c) }.settingsRow()
+    }
+
+    private func sourceLink(_ title: String, _ source: String, _ url: String) -> some View {
+        Link(destination: URL(string: url)!) {
+            HStack(spacing: 10) {
+                Image(systemName: "link").font(.system(size: 12)).foregroundColor(Theme.cyan).frame(width: 22)
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(title).font(.system(size: 13, weight: .medium, design: .rounded)).foregroundColor(Theme.text)
+                    Text(source).font(.system(size: 10, design: .rounded)).foregroundColor(Theme.sub)
+                }
+                Spacer()
+                Image(systemName: "arrow.up.right.square").font(.system(size: 11)).foregroundColor(Theme.dim)
+            }.settingsRow()
+        }
     }
 }
 

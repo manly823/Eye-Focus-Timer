@@ -43,14 +43,17 @@ struct StatsView: View {
                 }
             }
         }.glassCard()
+
+        Text("This score tracks your break & exercise habits. It is not a medical diagnosis. Consult an eye care professional for clinical advice.")
+            .font(.system(size: 9, design: .rounded)).foregroundColor(Theme.dim).multilineTextAlignment(.center).padding(.horizontal, 8)
     }
 
     private var scoreColor: Color { m.eyeHealthScore >= 70 ? Theme.mint : m.eyeHealthScore >= 40 ? Theme.amber : Theme.rose }
     private var scoreMessage: String {
-        if m.eyeHealthScore >= 80 { return "Excellent! Your eyes are well-rested today." }
-        if m.eyeHealthScore >= 60 { return "Good progress. A few more breaks will help." }
-        if m.eyeHealthScore >= 30 { return "Your eyes need more attention. Take regular breaks." }
-        return "Start taking breaks to improve your eye health."
+        if m.eyeHealthScore >= 80 { return "Great consistency! You're building healthy screen habits." }
+        if m.eyeHealthScore >= 60 { return "Good progress. A few more breaks will boost your streak." }
+        if m.eyeHealthScore >= 30 { return "Try adding more breaks to your routine today." }
+        return "Start taking breaks to build your daily habit."
     }
 
     private var weeklySection: some View {

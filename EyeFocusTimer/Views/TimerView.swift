@@ -22,7 +22,7 @@ struct TimerView: View {
         HStack {
             VStack(alignment: .leading, spacing: 2) {
                 Text("Eye Focus Timer").font(.system(size: 22, weight: .bold, design: .rounded)).foregroundColor(Theme.text)
-                Text("Protect your vision").font(.system(size: 13, design: .rounded)).foregroundColor(Theme.sub)
+                Text("Healthy screen habits").font(.system(size: 13, design: .rounded)).foregroundColor(Theme.sub)
             }; Spacer()
             HStack(spacing: 4) {
                 Image(systemName: "flame.fill").font(.system(size: 13)).foregroundColor(Theme.amber)

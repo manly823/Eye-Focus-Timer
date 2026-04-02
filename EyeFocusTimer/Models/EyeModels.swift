@@ -20,17 +20,17 @@ struct EyeExercise: Identifiable {
 extension EyeExercise {
     static let all: [EyeExercise] = [
         EyeExercise(id: .followDot, name: "Follow the Dot", subtitle: "Track a moving target", icon: "circle.circle.fill", color: Theme.cyan, duration: 40,
-                     description: "A glowing dot moves across the screen in smooth patterns. Follow it with your eyes without moving your head. Strengthens eye muscles and improves tracking."),
+                     description: "A glowing dot moves across the screen in smooth patterns. Follow it with your eyes without moving your head. This exercise is commonly recommended by optometrists to support eye muscle coordination (AAO)."),
         EyeExercise(id: .nearFar, name: "Near-Far Focus", subtitle: "Shift focal distance", icon: "arrow.up.arrow.down.circle.fill", color: Theme.violet, duration: 45,
-                     description: "Alternate focus between a near target and a far target. Hold each focus for 3 seconds. Reduces eye strain from prolonged close-range screen viewing."),
+                     description: "Alternate focus between a near target and a far target. Hold each focus for 3 seconds. Based on accommodation exercises recommended by the American Optometric Association (AOA)."),
         EyeExercise(id: .palming, name: "Palming Rest", subtitle: "Deep eye relaxation", icon: "hand.raised.circle.fill", color: Theme.mint, duration: 60,
-                     description: "Cover your eyes gently with your palms. Follow the breathing guide to deeply relax your eye muscles. Complete darkness lets your visual system reset."),
+                     description: "Cover your eyes gently with your palms. Follow the breathing guide to relax. Palming is a traditional relaxation technique referenced in optometric wellness literature."),
         EyeExercise(id: .figure8, name: "Figure 8", subtitle: "Trace infinity pattern", icon: "infinity.circle.fill", color: Color(red: 0.95, green: 0.55, blue: 0.25), duration: 40,
-                     description: "Follow a dot tracing an infinity (∞) shape. Improves flexibility of eye muscles and coordination between both eyes."),
+                     description: "Follow a dot tracing an infinity (∞) shape. A common optometric exercise for eye muscle flexibility and binocular coordination (AOA)."),
         EyeExercise(id: .blinkBreak, name: "Blink Break", subtitle: "Refresh your tear film", icon: "eye.circle.fill", color: Color(red: 0.85, green: 0.40, blue: 0.65), duration: 30,
-                     description: "We blink 66% less when using screens. This guided blinking exercise restores your tear film and moisturizes dry, tired eyes."),
+                     description: "Research suggests blink rate decreases during screen use (Tsubota et al., NEJM 1993). This guided blinking exercise encourages a healthy blink rate."),
         EyeExercise(id: .peripheralPeek, name: "Peripheral Peek", subtitle: "Expand your vision field", icon: "viewfinder.circle.fill", color: Theme.amber, duration: 35,
-                     description: "Stare at the center dot. Tap anywhere when you notice a flash at the edge of your vision. Tests and trains peripheral awareness."),
+                     description: "Stare at the center dot. Tap anywhere when you notice a flash at the edge of your vision. An awareness exercise based on standard visual field concepts."),
     ]
 }
 
