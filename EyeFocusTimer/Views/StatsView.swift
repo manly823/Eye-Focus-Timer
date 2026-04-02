@@ -44,7 +44,7 @@ struct StatsView: View {
             }
         }.glassCard()
 
-        Text("This score tracks your break & exercise habits. It is not a medical diagnosis. Consult an eye care professional for clinical advice.")
+        return Text("This score tracks your break & exercise habits. It is not a medical diagnosis. Consult an eye care professional for clinical advice.")
             .font(.system(size: 9, design: .rounded)).foregroundColor(Theme.dim).multilineTextAlignment(.center).padding(.horizontal, 8)
     }
 
