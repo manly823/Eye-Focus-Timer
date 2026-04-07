@@ -5,7 +5,7 @@ workflows:
     instance_type: mac_mini_m2
 
     integrations:
-      app_store_connect: Eye Focus Timer  # ← ЗАМЕНИ на имя твоей интеграции в Codemagic
+      app_store_connect: EyeFocusTimer ASC API  # ← ЗАМЕНИ на имя твоей интеграции в Codemagic
 
     environment:
       ios_signing:
