@@ -15,7 +15,7 @@ workflows:
         XCODE_PROJECT: "EyeFocusTimer.xcodeproj"
         XCODE_SCHEME: "EyeFocusTimer"
         APP_STORE_APP_ID: "6761429800"  # ← ЗАМЕНИ на Apple ID приложения
-      xcode: 16.1
+      xcode: latest
 
     scripts:
       - name: Install CocoaPods dependencies

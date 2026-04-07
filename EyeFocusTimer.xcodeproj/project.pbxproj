@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E30E7B52F85A4EA0071CCBC /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 8E30E7B42F85A4EA0071CCBC /* AppsFlyerLib-Static */; };
+		8E30E7B82F85A52D0071CCBC /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 8E30E7B72F85A52C0071CCBC /* FirebaseCore */; };
+		8E30E7BA2F85A52D0071CCBC /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 8E30E7B92F85A52D0071CCBC /* FirebaseMessaging */; };
+		8E30E7C62F85A8550071CCBC /* Notification.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8E30E7BF2F85A8550071CCBC /* Notification.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8E30E7CE2F85A86B0071CCBC /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 8E30E7CD2F85A86B0071CCBC /* FirebaseMessaging */; };
 		B10000000000000000000001 /* EyeFocusTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000001 /* EyeFocusTimerApp.swift */; };
 		B10000000000000000000002 /* EyeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000002 /* EyeModels.swift */; };
 		B10000000000000000000003 /* EyeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000003 /* EyeManager.swift */; };
@@ -20,9 +25,47 @@
 		B1000000000000000000000B /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000000B /* StatsView.swift */; };
 		B1000000000000000000000C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000000C /* SettingsView.swift */; };
 		B1000000000000000000000D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000000D /* Assets.xcassets */; };
+		B1000000000000000000000E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000000F /* GoogleService-Info.plist */; };
+		B10000000000000000000010 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000010 /* Configuration.swift */; };
+		B10000000000000000000011 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000011 /* AppDelegate.swift */; };
+		B10000000000000000000012 /* AppsFlyerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000012 /* AppsFlyerService.swift */; };
+		B10000000000000000000013 /* PushNotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000013 /* PushNotificationService.swift */; };
+		B10000000000000000000014 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000014 /* NetworkMonitor.swift */; };
+		B10000000000000000000015 /* ConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000015 /* ConfigService.swift */; };
+		B10000000000000000000016 /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000016 /* AppStateManager.swift */; };
+		B10000000000000000000017 /* FullscreenWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000017 /* FullscreenWebView.swift */; };
+		B10000000000000000000018 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000018 /* LoadingView.swift */; };
+		B10000000000000000000019 /* NoInternetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000019 /* NoInternetView.swift */; };
+		B1000000000000000000001A /* PushPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000001A /* PushPermissionView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8E30E7C42F85A8550071CCBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = P10000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E30E7BE2F85A8550071CCBC;
+			remoteInfo = Notification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8E30E7CB2F85A8550071CCBC /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8E30E7C62F85A8550071CCBC /* Notification.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		8E30E7BF2F85A8550071CCBC /* Notification.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Notification.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E30E7CF2F85AD900071CCBC /* EyeFocusTimer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EyeFocusTimer.entitlements; sourceTree = "<group>"; };
 		F10000000000000000000001 /* EyeFocusTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeFocusTimerApp.swift; sourceTree = "<group>"; };
 		F10000000000000000000002 /* EyeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeModels.swift; sourceTree = "<group>"; };
 		F10000000000000000000003 /* EyeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeManager.swift; sourceTree = "<group>"; };
@@ -37,38 +80,91 @@
 		F1000000000000000000000C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F1000000000000000000000D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1000000000000000000000E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1000000000000000000000F /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F10000000000000000000010 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		F10000000000000000000011 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F10000000000000000000012 /* AppsFlyerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsFlyerService.swift; sourceTree = "<group>"; };
+		F10000000000000000000013 /* PushNotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationService.swift; sourceTree = "<group>"; };
+		F10000000000000000000014 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		F10000000000000000000015 /* ConfigService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigService.swift; sourceTree = "<group>"; };
+		F10000000000000000000016 /* AppStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateManager.swift; sourceTree = "<group>"; };
+		F10000000000000000000017 /* FullscreenWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullscreenWebView.swift; sourceTree = "<group>"; };
+		F10000000000000000000018 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		F10000000000000000000019 /* NoInternetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoInternetView.swift; sourceTree = "<group>"; };
+		F1000000000000000000001A /* PushPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushPermissionView.swift; sourceTree = "<group>"; };
 		T10000000000000000000001 /* EyeFocusTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EyeFocusTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8E30E7C72F85A8550071CCBC /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8E30E7BE2F85A8550071CCBC /* Notification */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8E30E7C02F85A8550071CCBC /* Notification */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (8E30E7C72F85A8550071CCBC /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Notification; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
+		8E30E7BC2F85A8550071CCBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E30E7CE2F85A86B0071CCBC /* FirebaseMessaging in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		W10000000000000000000001 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E30E7BA2F85A52D0071CCBC /* FirebaseMessaging in Frameworks */,
+				8E30E7B82F85A52D0071CCBC /* FirebaseCore in Frameworks */,
+				8E30E7B52F85A4EA0071CCBC /* AppsFlyerLib-Static in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E30E7CC2F85A86B0071CCBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		G10000000000000000000001 = {
 			isa = PBXGroup;
 			children = (
 				G10000000000000000000002 /* EyeFocusTimer */,
 				T10000000000000000000001 /* EyeFocusTimer.app */,
+				8E30E7BF2F85A8550071CCBC /* Notification.appex */,
+				8E30E7C02F85A8550071CCBC /* Notification */,
+				8E30E7CC2F85A86B0071CCBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		G10000000000000000000002 /* EyeFocusTimer */ = {
 			isa = PBXGroup;
 			children = (
+				8E30E7CF2F85AD900071CCBC /* EyeFocusTimer.entitlements */,
 				F10000000000000000000001 /* EyeFocusTimerApp.swift */,
+				F10000000000000000000010 /* Configuration.swift */,
+				F10000000000000000000011 /* AppDelegate.swift */,
 				G10000000000000000000003 /* Models */,
 				G10000000000000000000004 /* ViewModels */,
 				G10000000000000000000005 /* Helpers */,
+				G10000000000000000000007 /* Services */,
+				G10000000000000000000008 /* Core */,
 				G10000000000000000000006 /* Views */,
 				F1000000000000000000000D /* Assets.xcassets */,
 				F1000000000000000000000E /* Info.plist */,
+				F1000000000000000000000F /* GoogleService-Info.plist */,
 			);
 			path = EyeFocusTimer;
 			sourceTree = "<group>";
@@ -108,13 +204,59 @@
 				F1000000000000000000000A /* ExercisePlayerView.swift */,
 				F1000000000000000000000B /* StatsView.swift */,
 				F1000000000000000000000C /* SettingsView.swift */,
+				F10000000000000000000018 /* LoadingView.swift */,
+				F10000000000000000000019 /* NoInternetView.swift */,
+				F1000000000000000000001A /* PushPermissionView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		G10000000000000000000007 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000012 /* AppsFlyerService.swift */,
+				F10000000000000000000013 /* PushNotificationService.swift */,
+				F10000000000000000000014 /* NetworkMonitor.swift */,
+				F10000000000000000000015 /* ConfigService.swift */,
+				F10000000000000000000016 /* AppStateManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		G10000000000000000000008 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000017 /* FullscreenWebView.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8E30E7BE2F85A8550071CCBC /* Notification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E30E7C82F85A8550071CCBC /* Build configuration list for PBXNativeTarget "Notification" */;
+			buildPhases = (
+				8E30E7BB2F85A8550071CCBC /* Sources */,
+				8E30E7BC2F85A8550071CCBC /* Frameworks */,
+				8E30E7BD2F85A8550071CCBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8E30E7C02F85A8550071CCBC /* Notification */,
+			);
+			name = Notification;
+			packageProductDependencies = (
+				8E30E7CD2F85A86B0071CCBC /* FirebaseMessaging */,
+			);
+			productName = Notification;
+			productReference = 8E30E7BF2F85A8550071CCBC /* Notification.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		N10000000000000000000001 /* EyeFocusTimer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C10000000000000000000002 /* Build configuration list for PBXNativeTarget "EyeFocusTimer" */;
@@ -122,10 +264,12 @@
 				S10000000000000000000001 /* Sources */,
 				W10000000000000000000001 /* Frameworks */,
 				R10000000000000000000001 /* Resources */,
+				8E30E7CB2F85A8550071CCBC /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8E30E7C52F85A8550071CCBC /* PBXTargetDependency */,
 			);
 			name = EyeFocusTimer;
 			productName = EyeFocusTimer;
@@ -139,9 +283,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1540;
+				LastSwiftUpdateCheck = 2600;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
+					8E30E7BE2F85A8550071CCBC = {
+						CreatedOnToolsVersion = 26.0;
+					};
 					N10000000000000000000001 = {
 						CreatedOnToolsVersion = 15.4;
 					};
@@ -156,27 +303,47 @@
 				Base,
 			);
 			mainGroup = G10000000000000000000001;
+			packageReferences = (
+				8E30E7B32F85A4EA0071CCBC /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
+				8E30E7B62F85A52C0071CCBC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = G10000000000000000000001;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				N10000000000000000000001 /* EyeFocusTimer */,
+				8E30E7BE2F85A8550071CCBC /* Notification */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8E30E7BD2F85A8550071CCBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		R10000000000000000000001 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B1000000000000000000000D /* Assets.xcassets in Resources */,
+				B1000000000000000000000E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8E30E7BB2F85A8550071CCBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		S10000000000000000000001 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -193,12 +360,106 @@
 				B1000000000000000000000A /* ExercisePlayerView.swift in Sources */,
 				B1000000000000000000000B /* StatsView.swift in Sources */,
 				B1000000000000000000000C /* SettingsView.swift in Sources */,
+				B10000000000000000000010 /* Configuration.swift in Sources */,
+				B10000000000000000000011 /* AppDelegate.swift in Sources */,
+				B10000000000000000000012 /* AppsFlyerService.swift in Sources */,
+				B10000000000000000000013 /* PushNotificationService.swift in Sources */,
+				B10000000000000000000014 /* NetworkMonitor.swift in Sources */,
+				B10000000000000000000015 /* ConfigService.swift in Sources */,
+				B10000000000000000000016 /* AppStateManager.swift in Sources */,
+				B10000000000000000000017 /* FullscreenWebView.swift in Sources */,
+				B10000000000000000000018 /* LoadingView.swift in Sources */,
+				B10000000000000000000019 /* NoInternetView.swift in Sources */,
+				B1000000000000000000001A /* PushPermissionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		8E30E7C52F85A8550071CCBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E30E7BE2F85A8550071CCBC /* Notification */;
+			targetProxy = 8E30E7C42F85A8550071CCBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		8E30E7C92F85A8550071CCBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Notification/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Notification;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jacobmooers.eyefocustimer.Notification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8E30E7CA2F85A8550071CCBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Notification/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Notification;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = jacobmooers.eyefocustimer.Notification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 		D10000000000000000000001 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -314,12 +575,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EyeFocusTimer/EyeFocusTimer.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EyeFocusTimer/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Eye Focus Timer";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take photos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo library to select images.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -347,12 +612,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EyeFocusTimer/EyeFocusTimer.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EyeFocusTimer/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Eye Focus Timer";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take photos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo library to select images.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -378,6 +647,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8E30E7C82F85A8550071CCBC /* Build configuration list for PBXNativeTarget "Notification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E30E7C92F85A8550071CCBC /* Debug */,
+				8E30E7CA2F85A8550071CCBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C10000000000000000000001 /* Build configuration list for PBXProject "EyeFocusTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -397,6 +675,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8E30E7B32F85A4EA0071CCBC /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.17.9;
+			};
+		};
+		8E30E7B62F85A52C0071CCBC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8E30E7B42F85A4EA0071CCBC /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E30E7B32F85A4EA0071CCBC /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+		8E30E7B72F85A52C0071CCBC /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E30E7B62F85A52C0071CCBC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		8E30E7B92F85A52D0071CCBC /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E30E7B62F85A52C0071CCBC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		8E30E7CD2F85A86B0071CCBC /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E30E7B62F85A52C0071CCBC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = P10000000000000000000001 /* Project object */;
 }
