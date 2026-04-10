@@ -1,0 +1,27 @@
+Eye Focus Timer is your personal screen wellness toolkit built around the 20-20-20 rule, recommended by the American Academy of Ophthalmology (AAO). Every 20 minutes of screen time, take a 20-second break and look at something 20 feet away — a simple habit for healthier screen use.
+SMART 20-20-20 TIMER
+Start the timer and focus on your work with confidence. Eye Focus Timer runs quietly in the background, counting down your chosen interval — 20, 30, 45, or 60 minutes. When it's time for a break, you'll receive a gentle notification with optional haptic feedback and sound. A beautiful 20-second countdown guides your break, reminding you to look at a distant object. After each break, the timer automatically resets so you maintain your routine throughout your workday.
+SIX INTERACTIVE EYE EXERCISES
+Go beyond simple breaks with exercises based on established optometric guidelines (AAO, AOA) to support your visual comfort:
+Follow the Dot — A glowing dot moves across your screen in smooth patterns. Track it with your eyes without moving your head. A common optometric exercise for eye muscle coordination, recommended by the AAO.
+Near-Far Focus — Alternate your gaze between a near target (your thumb at 15cm) and a far target on screen. Each focus hold lasts 3 seconds with haptic cues. Based on accommodation exercises recommended by the American Optometric Association (AOA).
+Palming Rest — Cover your eyes with warm palms while following a guided breathing animation. A traditional relaxation technique referenced in optometric wellness literature.
+Figure 8 Trace — Follow a dot as it traces an infinity (∞) pattern. A common optometric exercise for eye muscle flexibility and binocular coordination, described in AOA guidelines.
+Blink Break — Guided rapid-blink exercise with visual cues. Research suggests blink rate decreases significantly during screen use (Tsubota et al., NEJM 1993). This exercise encourages a healthy blink rate.
+Peripheral Peek — Stare at the center fixation point while dots flash at the edges of your screen. Tap when you spot one. An awareness exercise based on standard visual field concepts from optometric practice.
+DISCLAIMER
+This app is for informational and wellness purposes only and does not provide medical diagnoses, treatment, or advice. The Eye Health Score is a habit-tracking metric based on break and exercise frequency — it is not a clinical measurement. Always consult a qualified eye care professional (ophthalmologist or optometrist) for medical advice about your eye health. This app is not a substitute for professional medical care.
+
+SOURCES
+• 20-20-20 Rule: American Academy of Ophthalmology (aao.org)
+• Computer Vision Syndrome: American Optometric Association (aoa.org)
+• Blink rate research: Tsubota K. et al., New England Journal of Medicine, 1993
+• Digital eye strain: Sheppard & Wolffsohn, BMJ Open Ophthalmology, 2018
+• CVS review: Rosenfield M., Ophthalmic & Physiological Optics, 2011
+
+
+
+Links:
+
+Flyaer -  https://eyefocustimer.onelink.me/L8OJ/u0rcpqb8
+ASC - https://apps.apple.com/us/app/eye-focus-timer/id6761429800
