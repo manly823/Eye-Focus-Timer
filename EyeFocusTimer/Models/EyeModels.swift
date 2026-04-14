@@ -102,6 +102,7 @@ enum AchievementType: String, Codable, CaseIterable, Identifiable {
 }
 
 struct Achievement: Identifiable {
+    var id: AchievementType { type }
     let type: AchievementType
     let name: String
     let subtitle: String
