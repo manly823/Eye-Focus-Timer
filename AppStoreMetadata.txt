@@ -1,6 +1,12 @@
 App Name: Eye Focus Timer
 Subtitle: 20-20-20 Rule & Eye Exercises
 
+What's New in Version 1.1.0:
+• Achievements — Unlock 12 badges as you build healthy screen habits: streak milestones, break counts, exercise goals, and more
+• Exercise Routines — Three ready-made workout playlists: Quick Relief (2 min), Focus Boost (3 min), and Full Eye Session (4 min). Exercises play back-to-back automatically
+• Custom Daily Goals — Set your own break and exercise targets in Settings. Track progress with visual bars on the Timer screen
+• Monthly Activity Calendar — A GitHub-style heatmap showing your daily activity for any month, with navigation and monthly totals
+
 Description:
 Eye Focus Timer is your personal screen wellness toolkit built around the 20-20-20 rule, recommended by the American Academy of Ophthalmology (AAO). Every 20 minutes of screen time, take a 20-second break and look at something 20 feet away — a simple habit for healthier screen use.
 
@@ -22,11 +28,25 @@ Blink Break — Guided rapid-blink exercise with visual cues. Research suggests 
 
 Peripheral Peek — Stare at the center fixation point while dots flash at the edges of your screen. Tap when you spot one. An awareness exercise based on standard visual field concepts from optometric practice.
 
-HABIT TRACKING
-Monitor your screen wellness habits with statistics. See your daily Eye Health Score — a habit-tracking metric calculated from your breaks, exercises, and streak consistency (not a clinical measurement). Track weekly trends with visual bar charts. Build daily streaks to develop lasting healthy screen habits.
+EXERCISE ROUTINES
+Don't know where to start? Choose a ready-made workout playlist:
+
+Quick Relief — Blink Break + Palming Rest + Near-Far Focus. A fast 2-minute reset for tired eyes.
+
+Focus Boost — Follow the Dot + Figure 8 + Near-Far Focus + Blink Break. A 3-minute session to sharpen your vision.
+
+Full Eye Session — All six exercises played back-to-back. A complete 4-minute eye workout.
+
+Each routine plays exercises automatically one after another, tracking your progress along the way.
+
+ACHIEVEMENTS
+Stay motivated with 12 unlockable badges. Earn achievements for your first break, completing all exercises in a day, reaching streak milestones (3, 7, 14, and 30 days), hitting break counts (10, 50, 100), and achieving high Eye Health Scores. Watch your badge collection grow as you build consistent habits.
+
+HABIT TRACKING & MONTHLY CALENDAR
+Monitor your screen wellness habits with detailed statistics. See your daily Eye Health Score — a habit-tracking metric calculated from your breaks, exercises, and streak consistency (not a clinical measurement). Track weekly trends with visual bar charts and view your monthly activity on a color-coded calendar heatmap. Navigate between months to review your long-term progress. Build daily streaks to develop lasting healthy screen habits.
 
 CUSTOMIZABLE EXPERIENCE
-Choose your preferred break interval from 20 to 60 minutes. Toggle push notifications, sound effects, and haptic feedback independently. All preferences are saved automatically between sessions.
+Set your own daily goals for breaks and exercises. Choose your preferred break interval from 20 to 60 minutes. Toggle push notifications, sound effects, and haptic feedback independently. Track your progress with visual progress bars right on the Timer screen. All preferences are saved automatically between sessions.
 
 BASED ON ESTABLISHED GUIDELINES
 The 20-20-20 rule is recommended by the American Academy of Ophthalmology (AAO) and the American Optometric Association (AOA) as a preventive measure for digital eye strain. The eye exercises in this app are based on established optometric principles described in peer-reviewed literature (see Sources below). This app helps you build healthy screen habits based on these guidelines.
@@ -46,6 +66,6 @@ SOURCES
 • Digital eye strain: Sheppard & Wolffsohn, BMJ Open Ophthalmology, 2018
 • CVS review: Rosenfield M., Ophthalmic & Physiological Optics, 2011
 
-Keywords: eye care, 20-20-20 rule, eye exercises, screen time, eye strain, digital wellness, vision health, eye rest timer, blink reminder, eye workout
+Keywords: eye care, 20-20-20 rule, eye exercises, screen time, eye strain, digital wellness, vision health, eye rest timer, blink reminder, eye workout, achievements, exercise routine, eye workout playlist, monthly tracker, daily goals
 
 Category: Health & Fitness

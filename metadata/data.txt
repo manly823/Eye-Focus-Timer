@@ -1,6 +1,14 @@
 Eye Focus Timer is your personal screen wellness toolkit built around the 20-20-20 rule, recommended by the American Academy of Ophthalmology (AAO). Every 20 minutes of screen time, take a 20-second break and look at something 20 feet away — a simple habit for healthier screen use.
+
+WHAT'S NEW IN v1.1.0
+• Achievements — 12 unlockable badges for streaks, break counts, exercises & score milestones
+• Exercise Routines — Quick Relief (2 min), Focus Boost (3 min), Full Eye Session (4 min) with auto-play
+• Custom Daily Goals — Set your own break & exercise targets with progress bars
+• Monthly Activity Calendar — Color-coded heatmap with month navigation
+
 SMART 20-20-20 TIMER
 Start the timer and focus on your work with confidence. Eye Focus Timer runs quietly in the background, counting down your chosen interval — 20, 30, 45, or 60 minutes. When it's time for a break, you'll receive a gentle notification with optional haptic feedback and sound. A beautiful 20-second countdown guides your break, reminding you to look at a distant object. After each break, the timer automatically resets so you maintain your routine throughout your workday.
+
 SIX INTERACTIVE EYE EXERCISES
 Go beyond simple breaks with exercises based on established optometric guidelines (AAO, AOA) to support your visual comfort:
 Follow the Dot — A glowing dot moves across your screen in smooth patterns. Track it with your eyes without moving your head. A common optometric exercise for eye muscle coordination, recommended by the AAO.
@@ -9,6 +17,15 @@ Palming Rest — Cover your eyes with warm palms while following a guided breath
 Figure 8 Trace — Follow a dot as it traces an infinity (∞) pattern. A common optometric exercise for eye muscle flexibility and binocular coordination, described in AOA guidelines.
 Blink Break — Guided rapid-blink exercise with visual cues. Research suggests blink rate decreases significantly during screen use (Tsubota et al., NEJM 1993). This exercise encourages a healthy blink rate.
 Peripheral Peek — Stare at the center fixation point while dots flash at the edges of your screen. Tap when you spot one. An awareness exercise based on standard visual field concepts from optometric practice.
+
+EXERCISE ROUTINES
+Quick Relief — Blink Break + Palming + Near-Far Focus. A fast 2-minute reset.
+Focus Boost — Follow the Dot + Figure 8 + Near-Far + Blink Break. A 3-minute sharpening session.
+Full Eye Session — All six exercises back-to-back. A complete 4-minute eye workout.
+
+ACHIEVEMENTS
+12 unlockable badges: first break, 10/50/100 breaks, first exercise, all 6 in a day, 3/7/14/30-day streaks, score 80+ and 100.
+
 DISCLAIMER
 This app is for informational and wellness purposes only and does not provide medical diagnoses, treatment, or advice. The Eye Health Score is a habit-tracking metric based on break and exercise frequency — it is not a clinical measurement. Always consult a qualified eye care professional (ophthalmologist or optometrist) for medical advice about your eye health. This app is not a substitute for professional medical care.
 
