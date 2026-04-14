@@ -11,6 +11,10 @@ final class EyeManager: ObservableObject {
     @Published var soundEnabled: Bool { didSet { UserDefaults.standard.set(soundEnabled, forKey: "ef_sound") } }
     @Published var hapticEnabled: Bool { didSet { UserDefaults.standard.set(hapticEnabled, forKey: "ef_haptic") } }
 
+    @Published var dailyBreakGoal: Int { didSet { UserDefaults.standard.set(dailyBreakGoal, forKey: "ef_bgoal") } }
+    @Published var dailyExerciseGoal: Int { didSet { UserDefaults.standard.set(dailyExerciseGoal, forKey: "ef_egoal") } }
+    @Published var unlockedAchievements: Set<String> { didSet { Storage.shared.save(Array(unlockedAchievements), forKey: "ef_achievements") } }
+
     @Published var timerPhase: TimerPhase = .idle
     @Published var remainingSeconds: Int = 1200
     @Published var breakRemaining: Int = 20
@@ -26,7 +30,12 @@ final class EyeManager: ObservableObject {
         notifEnabled = UserDefaults.standard.object(forKey: "ef_notif") == nil ? true : UserDefaults.standard.bool(forKey: "ef_notif")
         soundEnabled = UserDefaults.standard.object(forKey: "ef_sound") == nil ? true : UserDefaults.standard.bool(forKey: "ef_sound")
         hapticEnabled = UserDefaults.standard.object(forKey: "ef_haptic") == nil ? true : UserDefaults.standard.bool(forKey: "ef_haptic")
+        dailyBreakGoal = UserDefaults.standard.object(forKey: "ef_bgoal") == nil ? 6 : UserDefaults.standard.integer(forKey: "ef_bgoal")
+        dailyExerciseGoal = UserDefaults.standard.object(forKey: "ef_egoal") == nil ? 3 : UserDefaults.standard.integer(forKey: "ef_egoal")
+        let savedAch: [String] = Storage.shared.load(forKey: "ef_achievements", default: [])
+        unlockedAchievements = Set(savedAch)
         remainingSeconds = interval.seconds
+        checkAchievements()
     }
 
     // MARK: - Timer
@@ -61,12 +70,14 @@ final class EyeManager: ObservableObject {
         sessions.append(BreakSession())
         if hapticEnabled { UINotificationFeedbackGenerator().notificationOccurred(.success) }
         timerPhase = .exercisePrompt
+        checkAchievements()
     }
 
     func skipExercise() { startTimer() }
 
     func logExercise(_ type: ExerciseType, duration: Int, score: Int? = nil) {
         exerciseLogs.append(ExerciseLog(exerciseType: type, durationSec: duration, score: score))
+        checkAchievements()
     }
 
     // MARK: - Stats
@@ -102,10 +113,14 @@ final class EyeManager: ObservableObject {
     var totalExercises: Int { exerciseLogs.count }
 
     var eyeHealthScore: Int {
-        let breakScore = min(Double(todayBreaks) / 6.0, 1.0) * 50
-        let exScore = min(Double(todayExercises) / 3.0, 1.0) * 30
+        let breakScore = min(Double(todayBreaks) / Double(max(dailyBreakGoal, 1)), 1.0) * 50
+        let exScore = min(Double(todayExercises) / Double(max(dailyExerciseGoal, 1)), 1.0) * 30
         let streakScore = min(Double(currentStreak) / 7.0, 1.0) * 20
         return Int(breakScore + exScore + streakScore)
+    }
+
+    var todayExerciseTypes: Set<ExerciseType> {
+        Set(exerciseLogs.filter { Calendar.current.isDateInToday($0.date) }.map(\.exerciseType))
     }
 
     // MARK: - Notifications
@@ -130,6 +145,26 @@ final class EyeManager: ObservableObject {
         exerciseLogs = Self.sampleExerciseLogs
         timerPhase = .idle
         remainingSeconds = interval.seconds
+        unlockedAchievements = []
+        checkAchievements()
+    }
+
+    // MARK: - Achievements
+    func checkAchievements() {
+        var new = unlockedAchievements
+        if totalBreaks >= 1 { new.insert(AchievementType.firstBreak.rawValue) }
+        if totalBreaks >= 10 { new.insert(AchievementType.tenBreaks.rawValue) }
+        if totalBreaks >= 50 { new.insert(AchievementType.fiftyBreaks.rawValue) }
+        if totalBreaks >= 100 { new.insert(AchievementType.hundredBreaks.rawValue) }
+        if totalExercises >= 1 { new.insert(AchievementType.firstExercise.rawValue) }
+        if todayExerciseTypes.count >= ExerciseType.allCases.count { new.insert(AchievementType.allExercisesInDay.rawValue) }
+        if currentStreak >= 3 { new.insert(AchievementType.streak3.rawValue) }
+        if currentStreak >= 7 { new.insert(AchievementType.streak7.rawValue) }
+        if currentStreak >= 14 { new.insert(AchievementType.streak14.rawValue) }
+        if currentStreak >= 30 { new.insert(AchievementType.streak30.rawValue) }
+        if eyeHealthScore >= 80 { new.insert(AchievementType.score80.rawValue) }
+        if eyeHealthScore >= 100 { new.insert(AchievementType.score100.rawValue) }
+        if new != unlockedAchievements { unlockedAchievements = new }
     }
 
     // MARK: - Samples

@@ -113,17 +113,31 @@ struct TimerView: View {
     // MARK: - Today Summary
     private var todaySummary: some View {
         HStack(spacing: 12) {
-            statCard("Breaks", "\(m.todayBreaks)", "target: 6+", Theme.cyan)
-            statCard("Exercises", "\(m.todayExercises)", "target: 3+", Theme.violet)
-            statCard("Score", "\(m.eyeHealthScore)", "out of 100", m.eyeHealthScore >= 70 ? Theme.mint : Theme.amber)
+            goalCard("Breaks", m.todayBreaks, m.dailyBreakGoal, Theme.cyan)
+            goalCard("Exercises", m.todayExercises, m.dailyExerciseGoal, Theme.violet)
+            scoreCard
         }
     }
 
-    private func statCard(_ label: String, _ value: String, _ hint: String, _ color: Color) -> some View {
-        VStack(spacing: 4) {
-            Text(value).font(.system(size: 24, weight: .bold, design: .rounded)).foregroundColor(color)
+    private func goalCard(_ label: String, _ current: Int, _ goal: Int, _ color: Color) -> some View {
+        let progress = min(Double(current) / Double(max(goal, 1)), 1.0)
+        return VStack(spacing: 5) {
+            Text("\(current)/\(goal)").font(.system(size: 22, weight: .bold, design: .rounded)).foregroundColor(color)
             Text(label).font(.system(size: 11, weight: .semibold, design: .rounded)).foregroundColor(Theme.text)
-            Text(hint).font(.system(size: 9, design: .rounded)).foregroundColor(Theme.dim)
+            Capsule().fill(color.opacity(0.15)).frame(height: 3)
+                .overlay(alignment: .leading) {
+                    GeometryReader { geo in
+                        Capsule().fill(color).frame(width: geo.size.width * progress)
+                    }.frame(height: 3)
+                }.clipShape(Capsule()).padding(.horizontal, 6)
+        }.frame(maxWidth: .infinity).padding(.vertical, 12).glassCard(pad: 0, rad: 16)
+    }
+
+    private var scoreCard: some View {
+        VStack(spacing: 4) {
+            Text("\(m.eyeHealthScore)").font(.system(size: 24, weight: .bold, design: .rounded)).foregroundColor(m.eyeHealthScore >= 70 ? Theme.mint : Theme.amber)
+            Text("Score").font(.system(size: 11, weight: .semibold, design: .rounded)).foregroundColor(Theme.text)
+            Text("of 100").font(.system(size: 9, design: .rounded)).foregroundColor(Theme.dim)
         }.frame(maxWidth: .infinity).padding(.vertical, 14).glassCard(pad: 0, rad: 16)
     }
 

@@ -20,6 +20,44 @@ struct SettingsView: View {
                     }.settingsRow()
                 }
 
+                section("DAILY GOALS", "target") {
+                    HStack {
+                        Image(systemName: "eye.fill").foregroundColor(Theme.cyan).frame(width: 22)
+                        VStack(alignment: .leading, spacing: 1) {
+                            Text("Break Goal").font(.system(size: 13, weight: .medium, design: .rounded)).foregroundColor(Theme.text)
+                            Text("Breaks per day").font(.system(size: 10, design: .rounded)).foregroundColor(Theme.sub)
+                        }
+                        Spacer()
+                        HStack(spacing: 10) {
+                            Button { if m.dailyBreakGoal > 1 { m.dailyBreakGoal -= 1 } } label: {
+                                Image(systemName: "minus.circle.fill").font(.system(size: 22)).foregroundStyle(Theme.dim)
+                            }
+                            Text("\(m.dailyBreakGoal)").font(.system(size: 16, weight: .bold, design: .rounded)).foregroundColor(Theme.cyan).frame(width: 24, alignment: .center)
+                            Button { if m.dailyBreakGoal < 20 { m.dailyBreakGoal += 1 } } label: {
+                                Image(systemName: "plus.circle.fill").font(.system(size: 22)).foregroundStyle(Theme.cyan)
+                            }
+                        }
+                    }.settingsRow()
+
+                    HStack {
+                        Image(systemName: "figure.mind.and.body").foregroundColor(Theme.violet).frame(width: 22)
+                        VStack(alignment: .leading, spacing: 1) {
+                            Text("Exercise Goal").font(.system(size: 13, weight: .medium, design: .rounded)).foregroundColor(Theme.text)
+                            Text("Exercises per day").font(.system(size: 10, design: .rounded)).foregroundColor(Theme.sub)
+                        }
+                        Spacer()
+                        HStack(spacing: 10) {
+                            Button { if m.dailyExerciseGoal > 1 { m.dailyExerciseGoal -= 1 } } label: {
+                                Image(systemName: "minus.circle.fill").font(.system(size: 22)).foregroundStyle(Theme.dim)
+                            }
+                            Text("\(m.dailyExerciseGoal)").font(.system(size: 16, weight: .bold, design: .rounded)).foregroundColor(Theme.violet).frame(width: 24, alignment: .center)
+                            Button { if m.dailyExerciseGoal < 15 { m.dailyExerciseGoal += 1 } } label: {
+                                Image(systemName: "plus.circle.fill").font(.system(size: 22)).foregroundStyle(Theme.violet)
+                            }
+                        }
+                    }.settingsRow()
+                }
+
                 section("FEEDBACK", "bell.badge") {
                     Toggle(isOn: $m.notifEnabled) {
                         HStack(spacing: 10) {

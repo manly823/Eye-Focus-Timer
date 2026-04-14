@@ -90,3 +90,63 @@ enum ReminderInterval: String, Codable, CaseIterable {
         }
     }
 }
+
+// MARK: - Achievement
+
+enum AchievementType: String, Codable, CaseIterable, Identifiable {
+    case firstBreak, tenBreaks, fiftyBreaks, hundredBreaks
+    case firstExercise, allExercisesInDay
+    case streak3, streak7, streak14, streak30
+    case score80, score100
+    var id: String { rawValue }
+}
+
+struct Achievement: Identifiable {
+    let type: AchievementType
+    let name: String
+    let subtitle: String
+    let icon: String
+    let color: Color
+}
+
+extension Achievement {
+    static let all: [Achievement] = [
+        Achievement(type: .firstBreak, name: "First Steps", subtitle: "Complete your first break", icon: "flag.fill", color: Theme.cyan),
+        Achievement(type: .tenBreaks, name: "Focused Ten", subtitle: "Complete 10 breaks", icon: "target", color: Theme.mint),
+        Achievement(type: .fiftyBreaks, name: "Break Pro", subtitle: "Complete 50 breaks", icon: "shield.fill", color: Theme.violet),
+        Achievement(type: .hundredBreaks, name: "Century Club", subtitle: "Complete 100 breaks", icon: "star.fill", color: Theme.amber),
+        Achievement(type: .firstExercise, name: "Eye Trainee", subtitle: "Complete your first exercise", icon: "figure.mind.and.body", color: Theme.cyan),
+        Achievement(type: .allExercisesInDay, name: "Full Workout", subtitle: "All 6 exercises in one day", icon: "trophy.fill", color: Theme.amber),
+        Achievement(type: .streak3, name: "3-Day Streak", subtitle: "3 consecutive active days", icon: "flame.fill", color: Color(red: 0.95, green: 0.55, blue: 0.25)),
+        Achievement(type: .streak7, name: "Week Warrior", subtitle: "7 consecutive active days", icon: "flame.fill", color: Theme.amber),
+        Achievement(type: .streak14, name: "Two Weeks Strong", subtitle: "14 consecutive active days", icon: "flame.fill", color: Theme.rose),
+        Achievement(type: .streak30, name: "Monthly Master", subtitle: "30 consecutive active days", icon: "crown.fill", color: Theme.violet),
+        Achievement(type: .score80, name: "High Achiever", subtitle: "Reach 80+ Eye Health Score", icon: "chart.bar.fill", color: Theme.mint),
+        Achievement(type: .score100, name: "Perfect Score", subtitle: "Reach 100 Eye Health Score", icon: "sparkles", color: Theme.amber),
+    ]
+}
+
+// MARK: - Exercise Routine
+
+struct ExerciseRoutine: Identifiable {
+    let id: String
+    let name: String
+    let subtitle: String
+    let icon: String
+    let color: Color
+    let exercises: [ExerciseType]
+    var estimatedSeconds: Int {
+        exercises.compactMap { type in EyeExercise.all.first { $0.id == type }?.duration }.reduce(0, +)
+    }
+}
+
+extension ExerciseRoutine {
+    static let all: [ExerciseRoutine] = [
+        ExerciseRoutine(id: "quick", name: "Quick Relief", subtitle: "Fast eye reset", icon: "bolt.circle.fill", color: Theme.cyan,
+                        exercises: [.blinkBreak, .palming, .nearFar]),
+        ExerciseRoutine(id: "focus", name: "Focus Boost", subtitle: "Sharpen your vision", icon: "list.bullet.circle.fill", color: Theme.violet,
+                        exercises: [.followDot, .figure8, .nearFar, .blinkBreak]),
+        ExerciseRoutine(id: "full", name: "Full Eye Session", subtitle: "Complete workout", icon: "star.circle.fill", color: Theme.amber,
+                        exercises: ExerciseType.allCases.map { $0 }),
+    ]
+}
