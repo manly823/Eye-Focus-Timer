@@ -1,0 +1,22 @@
+Eye Focus Timer adalah perangkat kesehatan layar pribadi Anda yang dibangun berdasarkan aturan 20-20-20, yang direkomendasikan oleh American Academy of Ophthalmology (AAO). Setiap 20 menit waktu layar, istirahatlah selama 20 detik dan lihat sesuatu yang berjarak 20 kaki — kebiasaan sederhana untuk penggunaan layar yang lebih sehat.
+PENGATUR WAKTU CERDAS 20-20-20
+Mulai pengatur waktu dan fokus pada pekerjaan Anda dengan percaya diri. Eye Focus Timer berjalan dengan tenang di latar belakang, menghitung mundur interval yang Anda pilih — 20, 30, 45, atau 60 menit. Saat waktunya istirahat, Anda akan menerima pemberitahuan lembut dengan umpan balik haptik dan suara opsional. Hitungan mundur 20 detik yang indah memandu istirahat Anda, mengingatkan Anda untuk melihat objek yang jauh. Setelah setiap istirahat, pengatur waktu secara otomatis diatur ulang sehingga Anda mempertahankan rutinitas Anda sepanjang hari kerja.
+
+ENAM LATIHAN MATA INTERAKTIF
+Lewati istirahat sederhana dengan latihan berdasarkan pedoman optometri yang telah ditetapkan (AAO, AOA) untuk mendukung kenyamanan visual Anda:
+Ikuti Titik — Sebuah titik bercahaya bergerak melintasi layar Anda dalam pola yang halus. Lacak dengan mata Anda tanpa menggerakkan kepala. Latihan optometri umum untuk koordinasi otot mata, yang direkomendasikan oleh AAO.
+Fokus Dekat-Jauh — Bergantianlah menatap antara target dekat (ibu jari Anda pada jarak 15 cm) dan target jauh di layar. Setiap penahanan fokus berlangsung selama 3 detik dengan isyarat haptik. Berdasarkan latihan akomodasi yang direkomendasikan oleh American Optometric Association (AOA).
+Istirahat dengan Telapak Tangan — Tutupi mata Anda dengan telapak tangan yang hangat sambil mengikuti animasi pernapasan terpandu. Teknik relaksasi tradisional yang dirujuk dalam literatur kesehatan optometri.
+Jejak Angka 8 — Ikuti sebuah titik saat ia menelusuri pola tak terhingga (∞). Latihan optometri umum untuk fleksibilitas otot mata dan koordinasi binokular, yang dijelaskan dalam pedoman AOA.
+Istirahat Berkedip — Latihan berkedip cepat terpandu dengan isyarat visual. Penelitian menunjukkan bahwa laju kedipan mata menurun secara signifikan selama penggunaan layar (Tsubota dkk., NEJM 1993). Latihan ini mendorong laju kedipan mata yang sehat.
+Mengintip Periferal — Tatap titik fiksasi tengah sementara titik-titik berkedip di tepi layar Anda. Ketuk saat Anda melihatnya. Latihan kesadaran berdasarkan konsep bidang visual standar dari praktik optometri.
+PENOLAKAN TANGGUNG JAWAB
+Aplikasi ini hanya untuk tujuan informasi dan kesehatan dan tidak memberikan diagnosis, pengobatan, atau nasihat medis. Skor Kesehatan Mata adalah metrik pelacakan kebiasaan berdasarkan frekuensi istirahat dan olahraga — ini bukan pengukuran klinis. Selalu konsultasikan dengan profesional perawatan mata yang berkualifikasi (dokter mata atau ahli optometri) untuk nasihat medis tentang kesehatan mata Anda. Aplikasi ini bukan pengganti perawatan medis profesional.
+PENCAPAIAN
+Tetap termotivasi dengan 12 lencana yang dapat dibuka. Raih prestasi untuk istirahat pertama Anda, menyelesaikan semua latihan dalam sehari, mencapai tonggak beruntun (3, 7, 14, dan 30 hari), mencapai jumlah istirahat (10, 50, 100), dan mencapai Skor Kesehatan Mata yang tinggi.
+SUMBER
+• Aturan 20-20-20: American Academy of Ophthalmology (aao.org)
+• Sindrom Penglihatan Komputer: American Optometric Association (aoa.org)
+• Penelitian laju kedipan: Tsubota K. dkk., New England Journal of Medicine, 1993
+• Ketegangan mata digital: Sheppard & Wolffsohn, BMJ Open Ophthalmology, 2018
+• Tinjauan CVS: Rosenfield M., Ophthalmic & Physiological Optics, 2011

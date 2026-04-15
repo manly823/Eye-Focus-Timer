@@ -1,0 +1,19 @@
+Eye Focus Timer to Twój osobisty zestaw narzędzi do dbania o zdrowie ekranów, oparty na zasadzie 20-20-20, rekomendowanej przez Amerykańską Akademię Okulistyki (AAO). Co 20 minut korzystania z ekranu zrób sobie 20-sekundową przerwę i spójrz na coś oddalonego o 6 metrów – to prosty nawyk, który pozwala na zdrowsze korzystanie z ekranu.
+INTELIGENTNY TIMER 20-20-20
+Uruchom timer i skup się na pracy z pewnością siebie. Eye Focus Timer działa cicho w tle, odliczając wybrany interwał – 20, 30, 45 lub 60 minut. Gdy nadejdzie czas przerwy, otrzymasz delikatne powiadomienie z opcjonalnym sygnałem dotykowym i dźwiękiem. Piękny 20-sekundowy licznik wskazuje Ci przerwę, przypominając o spojrzeniu na odległy obiekt. Po każdej przerwie timer automatycznie się resetuje, dzięki czemu możesz zachować rutynę przez cały dzień pracy. SZEŚĆ INTERAKTYWNYCH ĆWICZEŃ OCZU
+Wyjdź poza proste przerwy, stosując ćwiczenia oparte na ustalonych wytycznych optometrycznych (AAO, AOA), aby zwiększyć komfort widzenia:
+Podążaj za kropką — Świecąca kropka przesuwa się po ekranie w płynnych wzorach. Śledź ją wzrokiem, nie poruszając głową. Popularne ćwiczenie optometryczne poprawiające koordynację mięśni oczu, zalecane przez AAO.
+Skupienie wzroku na bliży i dali — Naprzemiennie patrz na obiekt znajdujący się blisko (kciuk w odległości 15 cm) i na obiekt oddalony na ekranie. Każde zatrzymanie wzroku trwa 3 sekundy z sygnałami dotykowymi. Oparte na ćwiczeniach akomodacyjnych zalecanych przez Amerykańskie Stowarzyszenie Optometrii (AOA).
+Odpoczynek z dłońmi — Zakryj oczy ciepłymi dłońmi, śledząc animację oddechową. Tradycyjna technika relaksacyjna, o której wspomina się w literaturze optometrycznej poświęconej dobremu samopoczuciu.
+Ślad ósemki — Śledź kropkę, która kreśli wzór nieskończoności (∞). Popularne ćwiczenie optometryczne poprawiające elastyczność mięśni oczu i koordynację obuoczną, opisane w wytycznych AOA. Blink Break — Ćwiczenie szybkiego mrugania z wykorzystaniem wskazówek wizualnych. Badania sugerują, że częstotliwość mrugania znacznie spada podczas korzystania z ekranu (Tsubota i in., NEJM 1993). To ćwiczenie zachęca do prawidłowego mrugania.
+Peripheral Peek — Wpatruj się w środkowy punkt fiksacji, podczas gdy kropki migają na krawędziach ekranu. Stuknij, gdy je zauważysz. Ćwiczenie na świadomość oparte na standardowych koncepcjach pola widzenia z praktyki optometrycznej.
+ZASTRZEŻENIE
+Ta aplikacja służy wyłącznie celom informacyjnym i zdrowotnym i nie stanowi diagnozy medycznej, leczenia ani porady. Wskaźnik Zdrowia Oka to wskaźnik śledzący nawyki, oparty na częstotliwości przerw i ćwiczeń — nie jest to pomiar kliniczny. Zawsze skonsultuj się z wykwalifikowanym specjalistą ds. opieki okulistycznej (okulistą lub optometrystą) w celu uzyskania porady medycznej na temat zdrowia oczu. Ta aplikacja nie zastępuje profesjonalnej opieki medycznej.
+OSIĄGNIĘCIA
+Zachowaj motywację dzięki 12 odznakom do odblokowania. Zdobądź osiągnięcia za pierwszą przerwę, wykonując wszystkie ćwiczenia w ciągu jednego dnia, osiągając kolejne kamienie milowe (3, 7, 14 i 30 dni), zaliczając przerwy (10, 50, 100) i uzyskując wysokie wyniki w teście zdrowia oczu.
+ŹRÓDŁA
+• Zasada 20-20-20: Amerykańska Akademia Okulistyki (aao.org)
+• Zespół widzenia komputerowego: Amerykańskie Stowarzyszenie Optometryczne (aoa.org)
+• Badania nad częstotliwością mrugania: Tsubota K. i in., New England Journal of Medicine, 1993
+• Zmęczenie oczu spowodowane używaniem urządzeń cyfrowych: Sheppard i Wolffsohn, BMJ Open Ophthalmology, 2018
+• Przegląd CVS: Rosenfield M., Ophthalmic & Physiological Optics, 2011

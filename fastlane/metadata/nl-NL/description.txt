@@ -1,0 +1,31 @@
+Eye Focus Timer is jouw persoonlijke toolkit voor schermgezondheid, gebaseerd op de 20-20-20-regel, aanbevolen door de American Academy of Ophthalmology (AAO). Neem na elke 20 minuten schermtijd een pauze van 20 seconden en kijk naar iets op 6 meter afstand – een eenvoudige gewoonte voor gezonder schermgebruik.
+
+SLIMME 20-20-20 TIMER
+Start de timer en concentreer je vol vertrouwen op je werk. Eye Focus Timer draait stil op de achtergrond en telt af naar het door jou gekozen interval: 20, 30, 45 of 60 minuten. Wanneer het tijd is voor een pauze, ontvang je een zachte melding met optionele haptische feedback en geluid. Een mooie aftelling van 20 seconden begeleidt je pauze en herinnert je eraan om naar een object in de verte te kijken. Na elke pauze wordt de timer automatisch gereset, zodat je je routine gedurende je werkdag kunt volhouden.
+
+ZES INTERACTIEVE OOGOEFENINGEN
+Ga verder dan simpele pauzes met oefeningen gebaseerd op gevestigde optometrische richtlijnen (AAO, AOA) om uw visueel comfort te ondersteunen:
+Volg de stip — Een oplichtende stip beweegt in vloeiende patronen over uw scherm. Volg de stip met uw ogen zonder uw hoofd te bewegen. Een veelgebruikte optometrische oefening voor oogspiercoördinatie, aanbevolen door de AAO.
+
+Scherpte van dichtbij naar veraf — Wissel uw blik af tussen een nabij doel (uw duim op 15 cm afstand) en een ver doel op het scherm. Elke focus duurt 3 seconden met haptische feedback. Gebaseerd op accommodatieoefeningen aanbevolen door de American Optometric Association (AOA).
+
+Palmrust — Bedek uw ogen met warme handpalmen terwijl u een begeleide ademhalingsoefening volgt. Een traditionele ontspanningstechniek die wordt beschreven in optometrische wellnessliteratuur.
+
+Achtergrondteken — Volg een stip terwijl deze een oneindigheidspatroon (∞) beschrijft. Een veelgebruikte optometrische oefening voor oogspierflexibiliteit en binoculaire coördinatie, beschreven in de AOA-richtlijnen.
+
+Blink Break — Begeleide oefening voor snel knipperen met visuele aanwijzingen. Onderzoek suggereert dat de knipperfrequentie aanzienlijk afneemt tijdens schermgebruik (Tsubota et al., NEJM 1993). Deze oefening stimuleert een gezonde knipperfrequentie.
+
+Peripheral Peek — Kijk naar het centrale fixatiepunt terwijl er stippen aan de randen van je scherm knipperen. Tik wanneer je er een ziet. Een bewustzijnsoefening gebaseerd op standaard gezichtsveldconcepten uit de optometrische praktijk.
+
+DISCLAIMER
+Deze app is uitsluitend bedoeld voor informatieve en welzijnsdoeleinden en biedt geen medische diagnoses, behandelingen of adviezen. De Eye Health Score is een meetinstrument voor het bijhouden van gewoontes op basis van de frequentie van pauzes en oefeningen — het is geen klinische meting. Raadpleeg altijd een gekwalificeerde oogarts of optometrist voor medisch advies over uw ooggezondheid. Deze app is geen vervanging voor professionele medische zorg.
+
+PRESTATIES
+Blijf gemotiveerd met 12 ontgrendelbare badges. Verdien prestaties voor je eerste pauze, het voltooien van alle oefeningen op een dag, het bereiken van mijlpalen in je reeks (3, 7, 14 en 30 dagen), het behalen van het vereiste aantal pauzes (10, 50, 100) en het behalen van een hoge score voor ooggezondheid.
+
+BRONNEN
+• 20-20-20-regel: American Academy of Ophthalmology (aao.org)
+• Computer Vision Syndrome: American Optometric Association (aoa.org)
+• Onderzoek naar knipperfrequentie: Tsubota K. et al., New England Journal of Medicine, 1993
+• Digitale oogvermoeidheid: Sheppard & Wolffsohn, BMJ Open Ophthalmology, 2018
+• CVS-review: Rosenfield M., Ophthalmic & Physiological Optics, 2011

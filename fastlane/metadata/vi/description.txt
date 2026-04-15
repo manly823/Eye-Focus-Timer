@@ -1,0 +1,30 @@
+Ứng dụng Eye Focus Timer là bộ công cụ chăm sóc sức khỏe màn hình cá nhân của bạn, được xây dựng dựa trên quy tắc 20-20-20, được Học viện Nhãn khoa Hoa Kỳ (AAO) khuyến nghị. Cứ sau 20 phút sử dụng màn hình, hãy nghỉ 20 giây và nhìn vào một vật thể cách xa 6 mét — một thói quen đơn giản để sử dụng màn hình lành mạnh hơn.
+
+HẸN GIỜ THÔNG MINH 20-20-20
+Bắt đầu hẹn giờ và tập trung vào công việc của bạn một cách tự tin. Eye Focus Timer hoạt động âm thầm trong nền, đếm ngược khoảng thời gian bạn đã chọn — 20, 30, 45 hoặc 60 phút. Khi đến giờ nghỉ, bạn sẽ nhận được một thông báo nhẹ nhàng kèm theo phản hồi rung và âm thanh tùy chọn. Một bộ đếm ngược 20 giây đẹp mắt sẽ hướng dẫn bạn nghỉ ngơi, nhắc nhở bạn nhìn vào một vật thể ở xa. Sau mỗi lần nghỉ, bộ hẹn giờ sẽ tự động đặt lại để bạn duy trì thói quen này trong suốt ngày làm việc.
+SÁU BÀI TẬP MẮT TƯƠNG TÁC
+Vượt xa những giờ nghỉ đơn giản với các bài tập dựa trên các hướng dẫn nhãn khoa đã được thiết lập (AAO, AOA) để hỗ trợ sự thoải mái thị giác của bạn:
+Theo dõi chấm sáng — Một chấm sáng di chuyển trên màn hình của bạn theo các hình mẫu mượt mà. Theo dõi nó bằng mắt mà không di chuyển đầu. Một bài tập nhãn khoa phổ biến để phối hợp cơ mắt, được AAO khuyến nghị.
+
+Tập ​​trung gần-xa — Luân phiên nhìn vào mục tiêu gần (ngón tay cái của bạn ở khoảng cách 15cm) và mục tiêu xa trên màn hình. Mỗi lần giữ tiêu điểm kéo dài 3 giây với các tín hiệu xúc giác. Dựa trên các bài tập điều tiết được Hiệp hội Nhãn khoa Hoa Kỳ (AOA) khuyến nghị.
+
+Hạ mắt bằng lòng bàn tay — Che mắt bằng lòng bàn tay ấm trong khi làm theo hình ảnh động hướng dẫn thở. Một kỹ thuật thư giãn truyền thống được đề cập trong tài liệu về sức khỏe nhãn khoa.
+
+Vẽ hình số 8 — Theo dõi một chấm khi nó vẽ theo hình vô cực (∞). Một bài tập nhãn khoa phổ biến để tăng tính linh hoạt của cơ mắt và phối hợp hai mắt, được mô tả trong hướng dẫn của AOA.
+
+Ngắt chớp mắt — Bài tập chớp mắt nhanh có hướng dẫn với các tín hiệu trực quan. Nghiên cứu cho thấy tần suất chớp mắt giảm đáng kể khi sử dụng màn hình (Tsubota và cộng sự, NEJM 1993). Bài tập này khuyến khích tần suất chớp mắt lành mạnh.
+
+Quan sát ngoại vi — Nhìn chằm chằm vào điểm cố định trung tâm trong khi các chấm nhấp nháy ở các cạnh màn hình. Chạm khi bạn phát hiện ra một chấm. Một bài tập nhận thức dựa trên các khái niệm trường thị giác tiêu chuẩn từ thực hành nhãn khoa.
+
+TUYÊN BỐ MIỄN TRÁCH NHIỆM
+Ứng dụng này chỉ dành cho mục đích thông tin và sức khỏe và không cung cấp chẩn đoán, điều trị hoặc lời khuyên y tế. Điểm Sức khỏe Mắt là một chỉ số theo dõi thói quen dựa trên tần suất nghỉ ngơi và tập thể dục — nó không phải là một phép đo lâm sàng. Luôn luôn tham khảo ý kiến ​​​​chuyên gia chăm sóc mắt có trình độ (bác sĩ nhãn khoa hoặc chuyên gia đo thị lực) để được tư vấn y tế về sức khỏe mắt của bạn. Ứng dụng này không thay thế cho chăm sóc y tế chuyên nghiệp.
+
+THÀNH TÍCH
+Luôn giữ động lực với 12 huy hiệu có thể mở khóa. Nhận thành tích cho lần nghỉ đầu tiên, hoàn thành tất cả các bài tập trong một ngày, đạt các mốc liên tục (3, 7, 14 và 30 ngày), đạt số lần nghỉ nhất định (10, 50, 100) và đạt điểm Sức khỏe Mắt cao.
+
+NGUỒN THAM KHẢO
+• Quy tắc 20-20-20: Học viện Nhãn khoa Hoa Kỳ (aao.org)
+• Hội chứng Thị giác do Máy tính: Hiệp hội Nhãn khoa Hoa Kỳ (aoa.org)
+• Nghiên cứu về tốc độ chớp mắt: Tsubota K. và cộng sự, Tạp chí Y học New England, 1993
+• Mỏi mắt do thiết bị kỹ thuật số: Sheppard & Wolffsohn, BMJ Open Ophthalmology, 2018
+• Đánh giá CVS: Rosenfield M., Ophthalmic & Physiological Optics, 2011

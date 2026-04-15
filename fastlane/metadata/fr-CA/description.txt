@@ -1,0 +1,34 @@
+Eye Focus Timer est votre outil personnel de bien-être visuel, basé sur la règle des 20-20-20 recommandée par l'Académie américaine d'ophtalmologie (AAO). Toutes les 20 minutes d'écran, faites une pause de 20 secondes et regardez un objet situé à 6 mètres (20 pieds) : une habitude simple pour une utilisation plus saine des écrans.
+
+MINUTE INTELLIGENTE 20-20-20
+Lancez la minuterie et concentrez-vous sur votre travail en toute sérénité. Eye Focus Timer fonctionne discrètement en arrière-plan, décomptant la durée de votre choix : 20, 30, 45 ou 60 minutes. Lorsqu'il est temps de faire une pause, vous recevrez une notification discrète, accompagnée d'un retour haptique et sonore (en option). Un élégant compte à rebours de 20 secondes vous guide pendant votre pause, vous rappelant de regarder un objet éloigné. Après chaque pause, la minuterie se réinitialise automatiquement pour vous permettre de maintenir cette routine tout au long de votre journée de travail. SIX EXERCICES OCULAIRES INTERACTIFS
+
+Allez au-delà des simples pauses grâce à des exercices basés sur des recommandations optométriques établies (AAO, AOA) pour améliorer votre confort visuel :
+
+Suivre le point — Un point lumineux se déplace sur votre écran selon des motifs fluides. Suivez-le du regard sans bouger la tête. Un exercice optométrique courant pour la coordination des muscles oculaires, recommandé par l’AAO.
+
+Concentration proche-lointaine — Alternez votre regard entre une cible proche (votre pouce à 15 cm) et une cible éloignée sur l’écran. Maintenez votre regard pendant 3 secondes, avec des repères haptiques. Cet exercice est basé sur les exercices d’accommodation recommandés par l’Association américaine d’optométrie (AOA).
+
+Repos par la paume des mains — Couvrez vos yeux avec vos paumes chaudes tout en suivant une animation de respiration guidée. Une technique de relaxation traditionnelle mentionnée dans la littérature sur le bien-être en optométrie.
+
+Tracer un 8 — Suivez un point qui trace un motif à l’infini (∞). Un exercice optométrique courant pour la flexibilité des muscles oculaires et la coordination binoculaire, décrit dans les recommandations de l’AOA.
+
+Pause clignement — Exercice de clignement rapide guidé avec des repères visuels. Des recherches suggèrent que la fréquence de clignement des yeux diminue significativement lors de l'utilisation d'un écran (Tsubota et al., NEJM 1993). Cet exercice favorise une fréquence de clignement saine.
+
+Regard périphérique : fixez le point de fixation central pendant que des points clignotent sur les bords de votre écran. Touchez l'écran lorsque vous en apercevez un. Un exercice de sensibilisation basé sur les concepts standards du champ visuel utilisés en optométrie.
+
+AVERTISSEMENT
+Cette application est uniquement destinée à des fins d'information et de bien-être et ne fournit aucun diagnostic, traitement ou conseil médical. Le score de santé oculaire est un indicateur de suivi des habitudes basé sur la fréquence des pauses et des exercices ; il ne s'agit pas d'une mesure clinique. Consultez toujours un professionnel de la santé oculaire qualifié (ophtalmologiste ou optométriste) pour obtenir des conseils médicaux concernant votre santé oculaire. Cette application ne remplace pas les soins médicaux professionnels.
+
+RÉUSSITES
+Restez motivé grâce à 12 badges à débloquer. Gagnez des récompenses pour votre première pause, pour avoir terminé tous les exercices de la journée, pour avoir atteint des paliers de pauses consécutives (3, 7, 14 et 30 jours), pour avoir atteint des objectifs de nombre de pauses (10, 50 et 100) et pour avoir obtenu un score élevé en santé oculaire.
+
+SOURCES • Règle 20-20-20 : Académie américaine d’ophtalmologie (aao.org)
+
+• Syndrome de vision informatique : Association américaine d’optométrie (aoa.org)
+
+• Recherche sur la fréquence de clignement : Tsubota K. et al., New England Journal of Medicine, 1993
+
+• Fatigue oculaire numérique : Sheppard et Wolffsohn, BMJ Open Ophthalmology, 2018
+
+• Revue du syndrome de vision informatique : Rosenfield M., Ophthalmic & Physiological Optics, 2011

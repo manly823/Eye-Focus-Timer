@@ -1,0 +1,25 @@
+Eye Focus Timer è il tuo kit personale per il benessere digitale, basato sulla regola del 20-20-20, raccomandata dall'American Academy of Ophthalmology (AAO). Ogni 20 minuti di utilizzo dello schermo, fai una pausa di 20 secondi e guarda qualcosa a 20 piedi di distanza (circa 6 metri): una semplice abitudine per un uso più sano dei dispositivi elettronici.
+TIMER INTELLIGENTE 20-20-20
+Avvia il timer e concentrati sul tuo lavoro con sicurezza. Eye Focus Timer funziona silenziosamente in background, scandendo il tempo che hai scelto: 20, 30, 45 o 60 minuti. Quando è il momento di una pausa, riceverai una leggera notifica con feedback aptico e suono opzionali. Un piacevole conto alla rovescia di 20 secondi ti guiderà durante la pausa, ricordandoti di guardare un oggetto lontano. Dopo ogni pausa, il timer si resetta automaticamente, permettendoti di mantenere la tua routine per tutta la giornata lavorativa.
+
+SEI ESERCIZI INTERATTIVI PER GLI OCCHI
+Vai oltre le semplici pause con esercizi basati su linee guida optometriche consolidate (AAO, AOA) per migliorare il tuo comfort visivo:
+Segui il punto: un punto luminoso si muove sullo schermo con traiettorie fluide. Seguilo con gli occhi senza muovere la testa. Un comune esercizio optometrico per la coordinazione dei muscoli oculari, raccomandato dall'AAO.
+Messa a fuoco vicino-lontano: alterna lo sguardo tra un bersaglio vicino (il tuo pollice a 15 cm) e un bersaglio lontano sullo schermo. Ogni mantenimento della messa a fuoco dura 3 secondi con feedback tattile. Basato sugli esercizi di accomodazione raccomandati dall'American Optometric Association (AOA).
+Riposo con i palmi: copri gli occhi con i palmi caldi mentre segui un'animazione di respirazione guidata. Una tecnica di rilassamento tradizionale citata nella letteratura optometrica sul benessere.
+Traccia la figura a otto: segui un punto mentre traccia una figura a infinito (∞). Un comune esercizio optometrico per la flessibilità dei muscoli oculari e la coordinazione binoculare, descritto nelle linee guida AOA.
+
+Pausa ammiccante: esercizio guidato di ammiccamento rapido con indicazioni visive. La ricerca suggerisce che la frequenza di ammiccamento diminuisce significativamente durante l'utilizzo di schermi (Tsubota et al., NEJM 1993). Questo esercizio favorisce una sana frequenza di ammiccamento.
+Sbirciata periferica: fissa il punto centrale mentre dei punti lampeggiano ai bordi dello schermo. Tocca quando ne vedi uno. Un esercizio di consapevolezza basato sui concetti standard del campo visivo della pratica optometrica.
+
+AVVISO
+Questa app è solo a scopo informativo e di benessere e non fornisce diagnosi, trattamenti o consigli medici. Il punteggio di salute oculare è un parametro di monitoraggio delle abitudini basato sulla frequenza delle pause e degli esercizi: non è una misurazione clinica. Consultare sempre un professionista qualificato della cura degli occhi (oftalmologo o optometrista) per un parere medico sulla salute dei propri occhi. Questa app non sostituisce l'assistenza medica professionale.
+OBIETTIVI
+Mantieni alta la motivazione con 12 badge sbloccabili. Ottieni riconoscimenti per la tua prima pausa, completando tutti gli esercizi in un giorno, raggiungendo traguardi di serie (3, 7, 14 e 30 giorni), raggiungendo i conteggi di pause (10, 50, 100) e ottenendo punteggi elevati nella valutazione della salute oculare.
+
+FONTI
+• Regola 20-20-20: American Academy of Ophthalmology (aao.org)
+• Sindrome da visione al computer: American Optometric Association (aoa.org)
+• Ricerca sulla frequenza di ammiccamento: Tsubota K. et al., New England Journal of Medicine, 1993
+• Affaticamento visivo digitale: Sheppard & Wolffsohn, BMJ Open Ophthalmology, 2018
+• Revisione della CVS: Rosenfield M., Ophthalmic & Physiological Optics, 2011

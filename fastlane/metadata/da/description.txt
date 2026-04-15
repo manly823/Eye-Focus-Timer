@@ -1,0 +1,22 @@
+Eye Focus Timer er dit personlige værktøjssæt til skærmvelvære, der er bygget op omkring 20-20-20-reglen, anbefalet af American Academy of Ophthalmology (AAO). Hvert 20. minut af skærmtid skal du tage en 20-sekunders pause og kigge på noget 6 meter væk – en simpel vane til sundere skærmbrug.
+
+SMART 20-20-20 TIMER
+Start timeren, og fokuser på dit arbejde med selvtillid. Eye Focus Timer kører stille i baggrunden og tæller ned til dit valgte interval – 20, 30, 45 eller 60 minutter. Når det er tid til en pause, modtager du en blid notifikation med valgfri haptisk feedback og lyd. En smuk nedtælling på 20 sekunder guider din pause og minder dig om at kigge på et fjernt objekt. Efter hver pause nulstilles timeren automatisk, så du opretholder din rutine gennem hele din arbejdsdag.
+SEKS INTERAKTIVE ØJENEØVELSER
+Gå ud over simple pauser med øvelser baseret på etablerede optometriske retningslinjer (AAO, AOA) for at understøtte din visuelle komfort:
+Følg prikken — En lysende prik bevæger sig hen over din skærm i jævne mønstre. Følg den med dine øjne uden at bevæge hovedet. En almindelig optometrisk øvelse for øjenmuskelkoordination, anbefalet af AAO.
+Nær-fjern fokus — Skift dit blik mellem et nært mål (din tommelfinger på 15 cm) og et fjernt mål på skærmen. Hver fokusholdning varer 3 sekunder med haptiske signaler. Baseret på akkommodationsøvelser anbefalet af American Optometric Association (AOA).
+Håndfladehvile — Dæk dine øjne med varme håndflader, mens du følger en guidet vejrtrækningsanimation. En traditionel afslapningsteknik, der refereres til i optometrisk wellnesslitteratur.
+Figur 8 Spor — Følg en prik, mens den sporer et uendeligt (∞) mønster. En almindelig optometrisk øvelse for øjenmuskelfleksibilitet og binokulær koordination, beskrevet i AOA-retningslinjerne.
+Blinkpause — Guidet hurtigblinkøvelse med visuelle signaler. Forskning tyder på, at blinkefrekvensen falder betydeligt under brug af skærm (Tsubota et al., NEJM 1993). Denne øvelse fremmer en sund blinkefrekvens.
+Perifert kig — Stir på det midterste fikseringspunkt, mens prikker blinker i kanterne af din skærm. Tryk, når du ser en. En bevidsthedsøvelse baseret på standard synsfeltkoncepter fra optometrisk praksis.
+ANSVARSFRASKRIVELSE
+Denne app er kun til informations- og velværeformål og giver ikke medicinske diagnoser, behandling eller rådgivning. Øjensundhedsscoren er en vanemåling baseret på pause- og træningsfrekvens — det er ikke en klinisk måling. Kontakt altid en kvalificeret øjenlæge (øjenlæge eller optometrist) for lægefaglig rådgivning om din øjensundhed. Denne app erstatter ikke professionel lægehjælp.
+PRÆSTATIONER
+Forbliv motiveret med 12 oplåselige badges. Optjen præstationer for din første pause, fuldfør alle øvelser på en dag, nå streak-milepæle (3, 7, 14 og 30 dage), nå pauseantal (10, 50, 100) og opnå høje øjensundhedsscorer.
+KILDER
+• 20-20-20-regel: American Academy of Ophthalmology (aao.org)
+• Computer Vision Syndrome: American Optometric Association (aoa.org)
+• Blinkfrekvensforskning: Tsubota K. et al., New England Journal of Medicine, 1993
+• Digital øjenbelastning: Sheppard & Wolffsohn, BMJ Open Ophthalmology, 2018
+• CVS-gennemgang: Rosenfield M., Ophthalmic & Physiological Optics, 2011

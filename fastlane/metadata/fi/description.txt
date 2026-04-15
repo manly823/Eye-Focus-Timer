@@ -1,0 +1,23 @@
+Eye Focus Timer on henkilökohtainen ruutujen hyvinvointityökalupakki, joka on rakennettu American Academy of Ophthalmologyn (AAO) suositteleman 20-20-20-säännön ympärille. Pidä 20 minuutin välein ruutuaikaa 20 sekunnin tauko ja katso jotakin noin 6 metrin päässä olevaa kohdetta – yksinkertainen tapa terveellisempään ruudunkäyttöön.
+
+ÄLYKÄS 20-20-20-AJASTIN
+Käynnistä ajastin ja keskity työhösi luottavaisin mielin. Eye Focus Timer toimii hiljaa taustalla ja laskee valitsemasi aikavälin – 20, 30, 45 tai 60 minuuttia – taaksepäin. Kun on tauon aika, saat lempeän ilmoituksen, jossa on valinnainen haptinen palaute ja ääni. Kaunis 20 sekunnin lähtölaskenta ohjaa taukoasi muistuttaen sinua katsomaan kaukaista kohdetta. Jokaisen tauon jälkeen ajastin nollautuu automaattisesti, jotta voit säilyttää rutiinisi koko työpäiväsi ajan. KUUSI INTERAKTIIVISTA SILMÄHARJOITUSTA
+Ylitä yksinkertaisten taukojen tuoma aika harjoituksilla, jotka perustuvat vakiintuneisiin optometrisiin ohjeisiin (AAO, AOA) ja tukevat näkömukavuuttasi:
+Seuraa pistettä – Hehkuva piste liikkuu näytölläsi tasaisesti. Seuraa sitä silmilläsi liikuttamatta päätäsi. Yleinen optometrinen harjoitus silmän lihasten koordinaatiolle, jota AAO suosittelee.
+Lähi-kaukotarkennus – Vaihda katsettasi lähellä olevan kohteen (peukalo 15 cm:n päässä) ja kaukana olevan kohteen välillä näytöllä. Jokainen tarkennuksen pito kestää 3 sekuntia haptisten vihjeiden avulla. Perustuu American Optometric Associationin (AOA) suosittelemiin akkommodaatioharjoituksiin.
+Kämmentuki – Peitä silmäsi lämpimillä kämmenilläsi ja seuraa samalla ohjattua hengitysanimaatiota. Perinteinen rentoutustekniikka, johon viitataan optometrisessä hyvinvointikirjallisuudessa.
+Kuva 8 Jäljitys – Seuraa pistettä, kun se piirtää äärettömän (∞) kuvion. Yleinen optometrinen harjoitus silmän lihasten joustavuudelle ja binokulaariselle koordinaatiolle, jota kuvataan AOA:n ohjeissa.
+Räpäytystauko – Ohjattu nopea räpäytysharjoitus visuaalisten vihjeiden avulla. Tutkimukset viittaavat siihen, että räpyttelytiheys hidastuu merkittävästi näytön käytön aikana (Tsubota et al., NEJM 1993). Tämä harjoitus edistää tervettä räpyttelytiheyttä.
+
+Perifeerinen kurkistus — Tuijota keskimmäistä kiinnityspistettä, kun pisteet vilkkuvat näytön reunoilla. Napauta, kun huomaat sellaisen. Tietoisuusharjoitus, joka perustuu optometrian käytännön näkökenttäkäsitteisiin.
+
+VASTUUVAPAUSLAUSEKE
+Tämä sovellus on tarkoitettu vain tiedoksi ja hyvinvointitarkoituksiin, eikä se tarjoa lääketieteellisiä diagnooseja, hoitoa tai neuvoja. Silmien terveyspisteet ovat tapojen seurantamittari, joka perustuu taukoihin ja liikuntatiheyteen – se ei ole kliininen mittaus. Kysy aina pätevältä silmälääkäriltä (silmälääkäriltä tai optikolta) lääketieteellistä neuvoa silmiesi terveydestä. Tämä sovellus ei korvaa ammattimaista lääketieteellistä hoitoa.
+
+SAAVUTUKSET
+Pysy motivoituneena 12 avattavan merkin avulla. Ansaitse saavutuksia ensimmäisestä tauostasi, kaikkien päivän harjoitusten suorittamisesta, sarjatavoitteiden (3, 7, 14 ja 30 päivää) saavuttamisesta, taukojen määrän (10, 50, 100) saavuttamisesta ja korkeiden silmien terveyspisteiden saavuttamisesta. LÄHTEET
+• 20-20-20-sääntö: American Academy of Ophthalmology (aao.org)
+• Tietokonenäköoireyhtymä: American Optometric Association (aoa.org)
+• Räpäytystiheystutkimus: Tsubota K. et al., New England Journal of Medicine, 1993
+• Digitaalinen silmien rasitus: Sheppard & Wolffsohn, BMJ Open Ophthalmology, 2018
+• CVS-katsaus: Rosenfield M., Ophthalmic & Physiological Optics, 2011

@@ -1,0 +1,24 @@
+O Eye Focus Timer é seu kit de ferramentas pessoal para o bem-estar visual, baseado na regra 20-20-20, recomendada pela Academia Americana de Oftalmologia (AAO). A cada 20 minutos de uso da tela, faça uma pausa de 20 segundos e olhe para algo a 6 metros de distância — um hábito simples para um uso mais saudável da tela.
+TEMPORIZADOR INTELIGENTE 20-20-20
+Inicie o cronômetro e concentre-se no seu trabalho com confiança. O Eye Focus Timer funciona silenciosamente em segundo plano, fazendo a contagem regressiva do intervalo escolhido — 20, 30, 45 ou 60 minutos. Quando for hora de fazer uma pausa, você receberá uma notificação suave com feedback tátil e sonoro opcional. Uma bela contagem regressiva de 20 segundos guia sua pausa, lembrando você de olhar para um objeto distante. Após cada pausa, o cronômetro é reiniciado automaticamente para que você mantenha sua rotina ao longo do dia de trabalho.
+SEIS EXERCÍCIOS INTERATIVOS PARA OS OLHOS
+Vá além de simples pausas com exercícios baseados em diretrizes optométricas estabelecidas (AAO, AOA) para promover seu conforto visual:
+Siga o Ponto — Um ponto brilhante se move pela tela em padrões suaves. Acompanhe-o com os olhos sem mover a cabeça. Um exercício optométrico comum para a coordenação dos músculos oculares, recomendado pela AAO.
+
+Foco Próximo-Distante — Alterne o olhar entre um alvo próximo (seu polegar a 15 cm) e um alvo distante na tela. Cada foco dura 3 segundos com dicas táteis. Baseado em exercícios de acomodação recomendados pela Associação Americana de Optometria (AOA).
+Repouso com as Palmas das Mãos — Cubra os olhos com as palmas das mãos aquecidas enquanto segue uma animação de respiração guiada. Uma técnica de relaxamento tradicional mencionada na literatura de bem-estar optométrico.
+Traçado da Figura 8 — Siga um ponto enquanto ele traça um padrão de infinito (∞). Um exercício optométrico comum para a flexibilidade dos músculos oculares e a coordenação binocular, descrito nas diretrizes da AOA.
+Pausa para Piscar — Exercício guiado de piscadas rápidas com dicas visuais. Pesquisas sugerem que a frequência de piscadas diminui significativamente durante o uso de telas (Tsubota et al., NEJM 1993). Este exercício incentiva uma frequência saudável de piscadas.
+Olhar para a Periferia — Fixe o olhar no ponto central enquanto pontos piscam nas bordas da tela. Toque na tela quando encontrar um ponto. Um exercício de consciência baseado em conceitos padrão de campo visual da prática optométrica.
+
+AVISO LEGAL
+Este aplicativo tem fins informativos e de bem-estar apenas e não fornece diagnósticos, tratamentos ou aconselhamento médico. A Pontuação de Saúde Ocular é uma métrica de acompanhamento de hábitos baseada na frequência de pausas e exercícios — não é uma medição clínica. Sempre consulte um profissional de saúde ocular qualificado (oftalmologista ou optometrista) para obter aconselhamento médico sobre a saúde dos seus olhos. Este aplicativo não substitui o atendimento médico profissional.
+CONQUISTAS
+Mantenha-se motivado com 12 emblemas desbloqueáveis. Ganhe conquistas por sua primeira pausa, por completar todos os exercícios em um dia, por atingir marcos de sequência (3, 7, 14 e 30 dias), por alcançar o número de pausas desejado (10, 50, 100) e por obter altas pontuações de saúde ocular.
+
+FONTES
+• Regra 20-20-20: Academia Americana de Oftalmologia (aao.org)
+• Síndrome da Visão do Computador: Associação Americana de Optometria (aoa.org)
+• Pesquisa sobre a frequência de piscadas: Tsubota K. et al., New England Journal of Medicine, 1993
+• Fadiga ocular digital: Sheppard & Wolffsohn, BMJ Open Ophthalmology, 2018
+• Revisão da SVC: Rosenfield M., Ophthalmic & Physiological Optics, 2011

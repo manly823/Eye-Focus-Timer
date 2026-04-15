@@ -1,0 +1,26 @@
+Eye Focus Timer es tu kit personal para el bienestar visual, basado en la regla 20-20-20, recomendada por la Academia Estadounidense de Oftalmología (AAO). Cada 20 minutos frente a la pantalla, tómate un descanso de 20 segundos y mira algo a 6 metros de distancia: un hábito sencillo para un uso más saludable de las pantallas.
+
+TEMPORIZADOR INTELIGENTE 20-20-20
+Inicia el temporizador y concéntrate en tu trabajo con confianza. Eye Focus Timer funciona discretamente en segundo plano, contando el intervalo que elijas: 20, 30, 45 o 60 minutos. Cuando sea el momento del descanso, recibirás una notificación suave con retroalimentación háptica y sonido opcionales. Una agradable cuenta regresiva de 20 segundos te guiará durante el descanso, recordándote que mires un objeto lejano. Después de cada descanso, el temporizador se reinicia automáticamente para que mantengas tu rutina durante toda la jornada laboral.
+SEIS EJERCICIOS OCULARES INTERACTIVOS
+Vaya más allá de simples descansos con ejercicios basados ​​en las directrices optométricas establecidas (AAO, AOA) para mejorar su comodidad visual:
+Siga el punto: Un punto brillante se mueve por la pantalla con movimientos suaves. Sígalo con la mirada sin mover la cabeza. Un ejercicio optométrico común para la coordinación de los músculos oculares, recomendado por la AAO.
+Enfoque cercano-lejano: Alterne la mirada entre un objetivo cercano (su pulgar a 15 cm) y un objetivo lejano en la pantalla. Mantenga el enfoque durante 3 segundos con señales hápticas. Basado en los ejercicios de acomodación recomendados por la Asociación Americana de Optometría (AOA).
+Descanso con las palmas de las manos: Cubra sus ojos con las palmas calientes mientras sigue una animación de respiración guiada. Una técnica de relajación tradicional mencionada en la literatura sobre bienestar optométrico.
+Trazado en forma de ocho: Siga un punto mientras traza un patrón de infinito (∞). Un ejercicio optométrico común para la flexibilidad de los músculos oculares y la coordinación binocular, descrito en las directrices de la AOA.
+Descanso de parpadeo: Ejercicio guiado de parpadeo rápido con señales visuales. Las investigaciones sugieren que la frecuencia de parpadeo disminuye significativamente durante el uso de pantallas (Tsubota et al., NEJM 1993). Este ejercicio fomenta una frecuencia de parpadeo saludable.
+
+Visión periférica: Fija la mirada en el punto central mientras aparecen puntos intermitentes en los bordes de la pantalla. Toca cuando veas uno. Un ejercicio de percepción basado en conceptos estándar del campo visual de la práctica optométrica.
+
+AVISO LEGAL
+Esta aplicación tiene fines informativos y de bienestar únicamente y no proporciona diagnósticos, tratamientos ni consejos médicos. La puntuación de salud ocular es una métrica de seguimiento de hábitos basada en la frecuencia de descansos y ejercicios; no es una medición clínica. Consulta siempre con un profesional de la salud ocular cualificado (oftalmólogo u optometrista) para obtener asesoramiento médico sobre tu salud ocular. Esta aplicación no sustituye la atención médica profesional.
+
+LOGROS
+Mantente motivado con 12 insignias desbloqueables. Consigue logros por tu primer descanso, completando todos los ejercicios en un día, alcanzando hitos de racha (3, 7, 14 y 30 días), logrando recuentos de descansos (10, 50 y 100) y obteniendo puntuaciones altas en Salud Ocular.
+
+FUENTES
+• Regla 20-20-20: Academia Estadounidense de Oftalmología (aao.org)
+• Síndrome de Visión por Computadora: Asociación Estadounidense de Optometría (aoa.org)
+• Investigación sobre la frecuencia de parpadeo: Tsubota K. et al., New England Journal of Medicine, 1993
+• Fatiga visual digital: Sheppard y Wolffsohn, BMJ Open Ophthalmology, 2018
+• Revisión del Síndrome de Visión por Computadora: Rosenfield M., Ophthalmic & Physiological Optics, 2011

@@ -1,0 +1,44 @@
+
+# https://docs.fastlane.tools
+
+default_platform(:ios)
+
+platform :ios do
+
+  desc "Upload metadata and screenshots to App Store Connect"
+  lane :upload_metadata do
+    key_path = File.join(ENV["CM_BUILD_DIR"] || Dir.pwd, "fastlane", "keys", "AuthKey.p8")
+    
+    UI.message("Loading API key from: #{key_path}")
+    
+    unless File.exist?(key_path)
+      UI.user_error!("API key file not found at #{key_path}. Please add your AuthKey.p8 to fastlane/keys/")
+    end
+
+    api_key = app_store_connect_api_key(
+      key_id: "PH38ZAH992",
+      issuer_id: "4429791c-253c-4476-b45b-9288a7140b2e",
+      key_filepath: key_path,
+      in_house: false
+    )
+    
+    UI.success("API key loaded successfully!")
+
+    deliver(
+      api_key: api_key,
+      app_identifier: "jacobmooers.eyefocustimer",
+      metadata_path: "./fastlane/metadata",
+      screenshots_path: "./fastlane/screenshots",
+      skip_binary_upload: true,
+      skip_app_version_update: true,
+      skip_screenshots: false,
+      force: true,
+      overwrite_screenshots: true,
+      submit_for_review: false,
+      automatic_release: false,
+      precheck_include_in_app_purchases: false,
+      run_precheck_before_submit: false
+    )
+  end
+
+end
