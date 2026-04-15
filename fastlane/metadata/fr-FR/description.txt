@@ -7,7 +7,7 @@ Allez au-delà des simples pauses grâce à des exercices basés sur des recomma
 
 Suivre le point — Un point lumineux se déplace sur votre écran selon des motifs fluides. Suivez-le du regard sans bouger la tête. Un exercice optométrique courant pour la coordination des muscles oculaires, recommandé par l’AAO.
 
-Concentration proche-lointaine — Alternez entre une cible proche et éloignée. Basé sur les exercices d’accommodation de l’AOA.
+Concentration proche-lointaine — Alternez votre regard entre une cible proche (votre pouce à 15 cm) et une cible éloignée sur l’écran. Maintenez votre regard pendant 3 secondes, avec des repères haptiques. Cet exercice est basé sur les exercices d’accommodation recommandés par l’Association américaine d’optométrie (AOA).
 
 Repos par la paume des mains — Couvrez vos yeux avec vos paumes chaudes tout en suivant une animation de respiration guidée. Une technique de relaxation traditionnelle mentionnée dans la littérature sur le bien-être en optométrie.
 
@@ -18,7 +18,7 @@ Pause clignement — Exercice de clignement rapide guidé avec des repères vis
 Regard périphérique : fixez le point de fixation central pendant que des points clignotent sur les bords de votre écran. Touchez l'écran lorsque vous en apercevez un. Un exercice de sensibilisation basé sur les concepts standards du champ visuel utilisés en optométrie.
 
 AVERTISSEMENT
-Cette application est uniquement destinée à des fins d'information et de bien-être et ne fournit aucun diagnostic, traitement ou conseil médical. Le score de santé oculaire est un indicateur de suivi des habitudes basé sur la fréquence des pauses et des exercices ; il ne s'agit pas d'une mesure clinique. Consultez toujours un professionnel de la santé oculaire qualifié (ophtalmologiste ou optométriste) pour obtenir des conseils médicaux concernant votre santé oculaire. Cette application ne remplace pas les soins médicaux professionnels.
+Cette application est uniquement destinée à des fins d'information et de bien-être et ne fournit aucun diagnostic, traitement ou conseil médical. Le score de santé oculaire est un indicateur de suivi des habitudes basé sur la fréquence des pauses et des exercices ; il ne s'agit pas d'une mesure clinique.
 
 RÉUSSITES
 Restez motivé grâce à 12 badges à débloquer. Gagnez des récompenses pour votre première pause, pour avoir terminé tous les exercices de la journée, pour avoir atteint des paliers de pauses consécutives (3, 7, 14 et 30 jours), pour avoir atteint des objectifs de nombre de pauses (10, 50 et 100) et pour avoir obtenu un score élevé en santé oculaire.
